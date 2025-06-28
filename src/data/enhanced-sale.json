@@ -1,0 +1,279 @@
+[
+  {
+    "id": "S001",
+    "type": "sale",
+    "title": "Deniz Manzaralı Penthouse",
+    "description": "Boğaz manzaralı, yüksek tavanlı, modern tasarımlı penthouse daire. Özel teras ve havuz erişimi.",
+    "price": 8499989,
+    "location": {
+      "city": "İstanbul",
+      "district": "Bebek"
+    },
+    "specs": {
+      "size": 280,
+      "rooms": "4+2",
+      "bathrooms": 3,
+      "age": 2,
+      "furnishing": "Unfurnished"
+    },
+    "features": [
+      "Ankastre Mutfak",
+      "Merkezi Isıtma",
+      "Yerden Isıtma",
+      "Akıllı Ev Sistemi",
+      "Güvenlik Sistemi",
+      "Kapalı Otopark"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true,
+      "floor": 12,
+      "totalFloors": 14
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&h=900&fit=crop"
+    ],
+    "virtualTour": "https://example.com/virtual-tour/S001",
+    "createdAt": "2024-01-15T10:00:00Z",
+    "agent": {
+      "name": "Ahmet Yılmaz",
+      "phone": "+90 532 123 4567",
+      "email": "ahmet.yilmaz@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,man",
+      "company": "IremWorld Luxury"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-satilik-bebek-deniz-manzarali-penthouse-1234567890"
+  },
+  {
+    "id": "S002",
+    "type": "sale",
+    "title": "Bahçeli Müstakil Villa",
+    "description": "Özel peyzajlı bahçe, yüzme havuzu ve güvenlikli sitede lüks villa.",
+    "price": 12500000,
+    "location": {
+      "city": "İstanbul",
+      "district": "Zekeriyaköy"
+    },
+    "specs": {
+      "size": 450,
+      "rooms": "5+2",
+      "bathrooms": 4,
+      "age": 1,
+      "furnishing": "Partially Furnished"
+    },
+    "features": [
+      "Özel Havuz",
+      "Akıllı Ev Sistemi",
+      "Yerden Isıtma",
+      "Şömine",
+      "Güvenlik Sistemi",
+      "Bahçe"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true,
+      "floor": 1,
+      "totalFloors": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?w=1600&h=900&fit=crop",
+      "https://images.unsplash.com/photo-1613977257593-d6c5449e69c0?w=1600&h=900&fit=crop"
+    ],
+    "virtualTour": "https://example.com/virtual-tour/S002",
+    "createdAt": "2024-01-14T14:30:00Z",
+    "agent": {
+      "name": "Ayşe Demir",
+      "phone": "+90 533 234 5678",
+      "email": "ayse.demir@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,woman",
+      "company": "IremWorld Luxury"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-satilik-zekeriyakoy-bahceli-mustakil-villa-1234567891"
+  },
+  {
+    "id": "S364776",
+    "type": "sale",
+    "category": "Depo",
+    "title": "2141v",
+    "description": "1ev1v2e",
+    "price": 4241,
+    "location": {
+      "country": "TR",
+      "state": null,
+      "city": "Aksaray",
+      "district": "Ortaköy",
+      "address": "v13vr32vwv"
+    },
+    "specs": {
+      "size": 12,
+      "rooms": "12",
+      "bathrooms": 123,
+      "age": 12,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "weryrterewewerhghjh",
+      "dfghhfgdsa"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true,
+      "floor": 5433,
+      "totalFloors": 4363232
+    },
+    "propertyDetails": {
+      "kitchenType": "Kapalı",
+      "heatingType": "Merkezi",
+      "hasBalcony": false,
+      "usageStatus": "Mülk Sahibi",
+      "inSite": true,
+      "monthlyFee": 32431,
+      "creditEligible": true,
+      "deedStatus": "Kat İrtifakı",
+      "fromWho": "Sahibinden",
+      "exchangeAvailable": false
+    },
+    "images": [
+      "/uploads/properties/1750939164048_y76lqmcodk.webp"
+    ],
+    "createdAt": "2025-06-26T12:02:44.776Z",
+    "agent": {
+      "name": "ddsadaf",
+      "phone": "+905431414655",
+      "email": "wabq@wqrwq.vqvq",
+      "photo": "",
+      "company": "vwqdvwq"
+    }
+  },
+  {
+    "id": "S533479",
+    "type": "sale",
+    "category": "Konut",
+    "title": "cwafs",
+    "description": "sfsdw",
+    "price": 12321,
+    "location": {
+      "country": "TR",
+      "state": null,
+      "city": "Afyonkarahisar",
+      "district": "Çobanlar",
+      "address": "fdsfs"
+    },
+    "specs": {
+      "size": 21,
+      "rooms": "12",
+      "bathrooms": 12,
+      "age": 12,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "12"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": true,
+      "floor": 12,
+      "totalFloors": 123
+    },
+    "propertyDetails": {
+      "kitchenType": "Açık",
+      "heatingType": "Kombi",
+      "hasBalcony": false,
+      "usageStatus": "Boş",
+      "inSite": false,
+      "monthlyFee": 12,
+      "creditEligible": false,
+      "deedStatus": "Kat Mülkiyeti",
+      "fromWho": "Emlak Ofisinden",
+      "exchangeAvailable": true
+    },
+    "images": [
+      "/uploads/properties/1750939515328_ge268k7pxf9.png"
+    ],
+    "createdAt": "2025-06-26T12:05:33.479Z",
+    "agent": {
+      "name": "ewcdcq",
+      "phone": "+9053255211241",
+      "email": "asdqw@wwq.qqwq",
+      "photo": "",
+      "company": "asdgf"
+    }
+  },
+  {
+    "id": "S935370",
+    "type": "sale",
+    "category": "Konut",
+    "title": "c3vrc13vr",
+    "description": "c21r1rc3",
+    "price": 2131,
+    "location": {
+      "country": "TR",
+      "state": null,
+      "city": "Amasya",
+      "district": "Merzifon",
+      "address": "ce21c1"
+    },
+    "specs": {
+      "size": 12,
+      "rooms": "12",
+      "bathrooms": 12,
+      "age": 12,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "12"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": true,
+      "floor": 12,
+      "totalFloors": 12
+    },
+    "propertyDetails": {
+      "kitchenType": "Açık",
+      "heatingType": "Kombi",
+      "hasBalcony": false,
+      "usageStatus": "Kiracılı",
+      "inSite": false,
+      "monthlyFee": 121,
+      "creditEligible": false,
+      "deedStatus": "Kat Mülkiyeti",
+      "fromWho": "Emlak Ofisinden",
+      "exchangeAvailable": true
+    },
+    "images": [
+      "/uploads/properties/1750939923529_5dx2btwxt56.png"
+    ],
+    "createdAt": "2025-06-26T12:12:15.370Z",
+    "agent": {
+      "name": "321refgrtg",
+      "phone": "3525132412",
+      "email": "cqcqw@wqvvd.qvww",
+      "photo": "",
+      "company": "eregretuytı"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-is-yeri-satilik-sarphan-finans-parkta-yatirimlik-satilik-ofis-1253519983/detay"
+  }
+]

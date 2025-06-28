@@ -1,0 +1,3696 @@
+[
+  {
+    "id": "ACT1750939936830yye5udvj4",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: c3vrc13vr",
+    "targetType": "property",
+    "targetId": "S935370",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T12:12:16.830Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "c3vrc13vr",
+      "price": 2131,
+      "location": "Merzifon, Amasya"
+    }
+  },
+  {
+    "id": "ACT1750939533536kvx225c66",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: cwafs",
+    "targetType": "property",
+    "targetId": "S533479",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T12:05:33.536Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "cwafs",
+      "price": 12321,
+      "location": "Çobanlar, Afyonkarahisar"
+    }
+  },
+  {
+    "id": "ACT1750939367363gi3aojisy",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: 2141v",
+    "targetType": "property",
+    "targetId": "S364776",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T12:02:47.363Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "2141v",
+      "price": 4241,
+      "location": "Ortaköy, Aksaray"
+    }
+  },
+  {
+    "id": "ACT1750937740800y3v822n8r",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: AAAAAAAAAAAAAAA",
+    "targetType": "property",
+    "targetId": "S003",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:40.800Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "AAAAAAAAAAAAAAA",
+      "price": 15500000,
+      "location": "Beykoz, İstanbul",
+      "deletedProperty": {
+        "id": "S003",
+        "title": "AAAAAAAAAAAAAAA",
+        "price": 15500000,
+        "type": "sale",
+        "location": {
+          "city": "İstanbul",
+          "district": "Beykoz"
+        },
+        "specs": {
+          "size": 550,
+          "rooms": "6+2",
+          "bathrooms": 5,
+          "age": 0,
+          "furnishing": "Furnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT17509377305563ffrb706n",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: 2qcdqsac",
+    "targetType": "property",
+    "targetId": "R468850",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:30.556Z",
+    "status": "success",
+    "details": {
+      "propertyType": "rent",
+      "title": "2qcdqsac",
+      "price": 2313,
+      "location": "Beşiktaş, İstanbul",
+      "deletedProperty": {
+        "id": "R468850",
+        "title": "2qcdqsac",
+        "price": 2313,
+        "type": "rent",
+        "location": {
+          "city": "İstanbul",
+          "district": "Beşiktaş"
+        },
+        "specs": {
+          "size": 21,
+          "rooms": "21",
+          "bathrooms": 41,
+          "age": 44,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937727637ttvs85d0c",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: ve1cd1wc1",
+    "targetType": "property",
+    "targetId": "R598194",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:27.637Z",
+    "status": "success",
+    "details": {
+      "propertyType": "rent",
+      "title": "ve1cd1wc1",
+      "price": 2414124,
+      "location": "ec12ce12, c21ec12",
+      "deletedProperty": {
+        "id": "R598194",
+        "title": "ve1cd1wc1",
+        "price": 2414124,
+        "type": "rent",
+        "location": {
+          "city": "c21ec12",
+          "district": "ec12ce12"
+        },
+        "specs": {
+          "size": 21312,
+          "rooms": "12",
+          "bathrooms": 123,
+          "age": 12,
+          "furnishing": "Furnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937725398nnr2vatg3",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: ce21ec12x",
+    "targetType": "property",
+    "targetId": "S706206",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:25.398Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "ce21ec12x",
+      "price": 42121,
+      "location": "ec12ce12c, c12e12",
+      "deletedProperty": {
+        "id": "S706206",
+        "title": "ce21ec12x",
+        "price": 42121,
+        "type": "sale",
+        "location": {
+          "city": "c12e12",
+          "district": "ec12ce12c"
+        },
+        "specs": {
+          "size": 321,
+          "rooms": "123",
+          "bathrooms": 1231,
+          "age": 2131,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937723099znii2tnki",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: MEMURDAN TERTEMİZ EV",
+    "targetType": "property",
+    "targetId": "S730875",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:23.099Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "MEMURDAN TERTEMİZ EV",
+      "price": 1000000,
+      "location": "Bayrampaşa, İstanbul",
+      "deletedProperty": {
+        "id": "S730875",
+        "title": "MEMURDAN TERTEMİZ EV",
+        "price": 1000000,
+        "type": "sale",
+        "location": {
+          "city": "İstanbul",
+          "district": "Bayrampaşa"
+        },
+        "specs": {
+          "size": 100,
+          "rooms": "3+1",
+          "bathrooms": 2,
+          "age": 98,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937719893e3ochirqn",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: vrwafavaf",
+    "targetType": "property",
+    "targetId": "S830927",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:19.893Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "vrwafavaf",
+      "price": 241141,
+      "location": "evffvas, svvfqev",
+      "deletedProperty": {
+        "id": "S830927",
+        "title": "vrwafavaf",
+        "price": 241141,
+        "type": "sale",
+        "location": {
+          "city": "svvfqev",
+          "district": "evffvas"
+        },
+        "specs": {
+          "size": 241,
+          "rooms": "241",
+          "bathrooms": 2141,
+          "age": 21431,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT17509377178638gsl67zvz",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: d21d412",
+    "targetType": "property",
+    "targetId": "S005700",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:17.863Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "d21d412",
+      "price": 12312,
+      "location": "Borçka, Artvin",
+      "deletedProperty": {
+        "id": "S005700",
+        "title": "d21d412",
+        "price": 12312,
+        "type": "sale",
+        "location": {
+          "country": "TR",
+          "state": null,
+          "city": "Artvin",
+          "district": "Borçka",
+          "address": ""
+        },
+        "specs": {
+          "size": 12,
+          "rooms": "12",
+          "bathrooms": 12,
+          "age": 12,
+          "furnishing": "Furnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937715287coev1f8a8",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: c21ce1w",
+    "targetType": "property",
+    "targetId": "S118036",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:35:15.287Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "c21ce1w",
+      "price": 21312,
+      "location": "undefined, Adıyaman",
+      "deletedProperty": {
+        "id": "S118036",
+        "title": "c21ce1w",
+        "price": 21312,
+        "type": "sale",
+        "location": {
+          "country": "TR",
+          "state": null,
+          "city": "Adıyaman",
+          "address": ""
+        },
+        "specs": {
+          "size": 123,
+          "rooms": "312",
+          "bathrooms": 312,
+          "age": 231,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937696741d6jvjxtuu",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: istanbul",
+    "targetType": "property",
+    "targetId": "S364563",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:34:56.741Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "istanbul",
+      "price": 433444444444,
+      "location": "Şişli, İstanbul",
+      "deletedProperty": {
+        "id": "S364563",
+        "title": "istanbul",
+        "price": 433444444444,
+        "type": "sale",
+        "location": {
+          "country": "TR",
+          "state": null,
+          "city": "İstanbul",
+          "district": "Şişli",
+          "address": "şişli merkez"
+        },
+        "specs": {
+          "size": 232,
+          "rooms": "3+1",
+          "bathrooms": 2,
+          "age": 5,
+          "furnishing": "Furnished"
+        }
+      }
+    }
+  },
+  {
+    "id": "ACT1750937690539gqrmk431x",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_delete",
+    "description": "Emlak silindi: cxcaasdsadsadsa",
+    "targetType": "property",
+    "targetId": "S475899",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-26T11:34:50.539Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "cxcaasdsadsadsa",
+      "price": 5000000,
+      "location": "adasdsadsa, dasdasdasds",
+      "deletedProperty": {
+        "id": "S475899",
+        "title": "cxcaasdsadsadsa",
+        "price": 5000000,
+        "type": "sale",
+        "location": {
+          "city": "dasdasdasds",
+          "district": "adasdsadsa"
+        },
+        "specs": {
+          "size": 1,
+          "rooms": "321321",
+          "bathrooms": 3213213,
+          "age": 21312312,
+          "furnishing": "Unfurnished"
+        }
+      }
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-26T09:48:14.835Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT1750931294838mqh1f79qd"
+  },
+  {
+    "id": "ACT1750836366239ggnqso8e8",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: istanbul",
+    "targetType": "property",
+    "targetId": "S364563",
+    "ipAddress": "::ffff:192.168.110.192",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T07:26:06.239Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "istanbul",
+      "price": 433444444444,
+      "location": "Şişli, İstanbul"
+    }
+  },
+  {
+    "userId": "U006",
+    "userName": "CEM AYDIN",
+    "userEmail": "cem@green.net.tr",
+    "action": "user_login",
+    "description": "CEM AYDIN sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U006",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T07:20:56.239Z"
+    },
+    "timestamp": "2025-06-25T07:20:57.747Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.192",
+    "id": "ACT1750836057748wmewaz1z8"
+  },
+  {
+    "id": "ACT1750836057716fe1hjjtsp",
+    "userId": "U006",
+    "userName": "CEM AYDIN",
+    "userEmail": "cem@green.net.tr",
+    "action": "user_login",
+    "description": "CEM AYDIN sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U006",
+    "ipAddress": "::ffff:192.168.110.192",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T07:20:57.716Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T07:20:57.716Z"
+    }
+  },
+  {
+    "id": "ACT1750836042296ogcksnt1t",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_create",
+    "description": "Yeni kullanıcı eklendi: CEM AYDIN",
+    "targetType": "user",
+    "targetId": "U006",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T07:20:42.296Z",
+    "status": "success",
+    "details": {
+      "userEmail": "cem@green.net.tr",
+      "userName": "CEM AYDIN",
+      "userRole": "admin",
+      "createdBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T07:20:19.422Z"
+    },
+    "timestamp": "2025-06-25T07:20:19.447Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750836019447is22tmaz8"
+  },
+  {
+    "id": "ACT1750836019418h2aprf5ul",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T07:20:19.418Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T07:20:19.417Z"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "agent",
+      "logoutTime": "2025-06-25T07:20:13.608Z"
+    },
+    "timestamp": "2025-06-25T07:20:13.638Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750836013639rjsj0qsp0"
+  },
+  {
+    "id": "ACT1750833006133cc41x3yqx",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: d21d412",
+    "targetType": "property",
+    "targetId": "S005700",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T06:30:06.133Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "d21d412",
+      "price": 12312,
+      "location": "Borçka, Artvin"
+    }
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T06:28:59.953Z"
+    },
+    "timestamp": "2025-06-25T06:29:00.606Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750832940607al2u546xf"
+  },
+  {
+    "id": "ACT1750832939947mjc3vx08m",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T06:28:59.947Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T06:28:59.946Z"
+    }
+  },
+  {
+    "id": "ACT1750831118510zuumbqkju",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: c21ce1w",
+    "targetType": "property",
+    "targetId": "S118036",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T05:58:38.510Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "c21ce1w",
+      "price": 21312,
+      "location": "undefined, Adıyaman"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-25T05:55:29.176Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750830929177pwb4oj4fp"
+  },
+  {
+    "id": "ACT1750830929125it5npqwiu",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T05:55:29.125Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T05:55:00.952Z"
+    },
+    "timestamp": "2025-06-25T05:55:00.975Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750830900976zq61pkkvx"
+  },
+  {
+    "id": "ACT1750830900942wn468twio",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-25T05:55:00.942Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-25T05:55:00.942Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-25T05:53:46.341Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750830826342d3uyvoj0t"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-25T05:53:41.932Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT17508308219335tohbto4h"
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-24T19:06:43.311Z"
+    },
+    "timestamp": "2025-06-24T19:06:43.349Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750792003350f8y7h7s6h"
+  },
+  {
+    "id": "ACT1750792003302leycr4ywv",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T19:06:43.302Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-24T19:06:43.302Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T19:06:35.099Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750791995101qdz57n3ar"
+  },
+  {
+    "id": "ACT1750791995050002naqhqk",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T19:06:35.050Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T19:05:53.402Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750791953403qowzytcqp"
+  },
+  {
+    "id": "ACT1750791953344ae5mgatb6",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T19:05:53.344Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T19:05:49.852Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT17507919498604whoh379i"
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-24T13:20:14.583Z"
+    },
+    "timestamp": "2025-06-24T13:20:14.641Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750771214644k36ifyzmg"
+  },
+  {
+    "id": "ACT1750771214573wkxjp8iw2",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T13:20:14.573Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-24T13:20:14.573Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T13:20:12.220Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750771212223u7ztp8o3e"
+  },
+  {
+    "id": "ACT1750771212148rus1qgsfy",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkem@gorkem.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T13:20:12.148Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkem@gorkem.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "agent",
+      "logoutTime": "2025-06-24T13:20:03.825Z"
+    },
+    "timestamp": "2025-06-24T13:20:03.929Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750771203932v22nvvlcg"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T08:14:25.230Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT17507528652308n3rmdgi4"
+  },
+  {
+    "id": "ACT1750752865208n6c55uzkw",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T08:14:25.208Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T08:14:22.355Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT1750752862355rh09ay4ui"
+  },
+  {
+    "id": "ACT1750752862333laeythgi3",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::ffff:192.168.110.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T08:14:22.333Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T08:14:09.576Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT1750752849579f9r7pd6kq"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T08:14:06.035Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT1750752846037o83i2bn7x"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T08:14:02.262Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::ffff:192.168.110.22",
+    "id": "ACT1750752842265b8ljlg9in"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T11:51:37.057Z"
+    },
+    "timestamp": "2025-06-24T06:49:17.119Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747757123zuq2c6agl"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T11:51:37.057Z"
+    },
+    "timestamp": "2025-06-24T06:49:17.002Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT17507477570079z51fplv3"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.927Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756930yx29hgzsi"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.768Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756771wccguzoxs"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T11:51:37.057Z"
+    },
+    "timestamp": "2025-06-24T06:49:16.716Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT175074775671940zjaiazb"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.666Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756669h9timsyk4"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.559Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756562nz6745nzy"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.487Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756490bkvx3kcat"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.450Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756452234vyfb6v"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.347Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756350rasozwcef"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.302Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756305erfnw41a1"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.260Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756262pwc5e195l"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.169Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756171pg285cpau"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.107Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756110uhrmb3sxz"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:16.070Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747756073zx1rilvgc"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.949Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755952hmud7z8go"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.913Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755915n79cr0awq"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.862Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755865lnor54nga"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.695Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT17507477556983yle93pqh"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.511Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755514rztq3fanv"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.403Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755409ssxfh6f4u"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.357Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755359nq3qeq241"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.159Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755163qkf0f02sk"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:15.091Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747755094mlhsoq88y"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.885Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754888w8amuthig"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.748Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754751mlu36mktg"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.708Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754711d4df8xhgf"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.533Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT17507477545364es56dib2"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.526Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754528ktsth7zx5"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.487Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754489vyi1kbxoj"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.328Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT17507477543315s0xq6ixi"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.320Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754323y4tf044uv"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-24T06:49:14.308Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "id": "ACT1750747754312w2i14jq93"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T05:44:12.158Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750743852162bdsjmnjo2"
+  },
+  {
+    "id": "ACT17507438520265ghgao6df",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T05:44:12.026Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-24T05:44:08.389Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750743848390f68kp9j4o"
+  },
+  {
+    "id": "ACT17507438482798k4xloxzr",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-24T05:44:08.279Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T05:44:02.081Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750743842081eqwu6l2og"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T05:43:58.045Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750743838047996llys6u"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-24T05:43:55.298Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT175074383529961xmm6p8f"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-24T05:43:48.493Z"
+    },
+    "timestamp": "2025-06-24T05:43:49.395Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750743829396gwd9j72fe"
+  },
+  {
+    "id": "ACT17507155224918etc0wuva",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_update",
+    "description": "Emlak güncellendi: cxcaasdsadsadsa",
+    "targetType": "property",
+    "targetId": "S475899",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T21:52:02.491Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "changes": {
+        "price": {
+          "old": 72373298742373840,
+          "new": 5000000
+        }
+      },
+      "oldTitle": "cxcaasdsadsadsa",
+      "newTitle": "cxcaasdsadsadsa",
+      "oldPrice": 72373298742373840,
+      "newPrice": 5000000
+    }
+  },
+  {
+    "id": "ACT1750710478489wun1ns1yg",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: cxcaasdsadsadsa",
+    "targetType": "property",
+    "targetId": "S475899",
+    "ipAddress": "::ffff:192.168.241.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "timestamp": "2025-06-23T20:27:58.490Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "cxcaasdsadsadsa",
+      "price": 72373298742373840,
+      "location": "adasdsadsa, dasdasdasds"
+    }
+  },
+  {
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T20:25:51.818Z"
+    },
+    "timestamp": "2025-06-23T20:25:54.267Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "ipAddress": "::ffff:192.168.241.223",
+    "id": "ACT1750710354267tpcf8wro6"
+  },
+  {
+    "id": "ACT1750710354232cspffslg9",
+    "userId": "U005",
+    "userName": "gorkemtest3",
+    "userEmail": "gorkem@gorkem.com",
+    "action": "user_login",
+    "description": "gorkemtest3 sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::ffff:192.168.241.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "timestamp": "2025-06-23T20:25:54.232Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T20:25:54.232Z"
+    }
+  },
+  {
+    "id": "ACT1750710335690b34lcqhjz",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_create",
+    "description": "Yeni kullanıcı eklendi: gorkemtest3",
+    "targetType": "user",
+    "targetId": "U005",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:25:35.690Z",
+    "status": "success",
+    "details": {
+      "userEmail": "gorkem@gorkem.com",
+      "userName": "gorkemtest3",
+      "userRole": "admin",
+      "createdBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkimetal@gorki.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkimetal@gorki.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-23T20:25:12.625Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750710312625w9b91cal3"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkimetal@gorki.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkimetal@gorki.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-23T20:25:09.449Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750710309449smo1vz53f"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkimetal@gorki.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkimetal@gorki.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-23T20:24:55.871Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "ipAddress": "::ffff:192.168.241.223",
+    "id": "ACT1750710295872oi9lm49h0"
+  },
+  {
+    "id": "ACT1750710289630xwyy3lfjp",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:24:49.630Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Pasif",
+          "new": "Aktif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "id": "ACT1750710288784buytmwcq3",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:24:48.784Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Aktif",
+          "new": "Pasif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkimetal@gorki.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkimetal@gorki.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-23T20:24:41.573Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "ipAddress": "::ffff:192.168.241.223",
+    "id": "ACT1750710281574h0mc249i6"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: gorkimetal@gorki.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "gorkimetal@gorki.com",
+      "failureReason": "Giriş işlemi sırasında bir hata oluştu"
+    },
+    "timestamp": "2025-06-23T20:24:20.852Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "ipAddress": "::ffff:192.168.241.223",
+    "id": "ACT1750710260852bdgyttmwy"
+  },
+  {
+    "id": "ACT1750710244588vn1ks8l0n",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:24:04.588Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Pasif",
+          "new": "Aktif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "id": "ACT17507102396448ug2sm3z8",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:23:59.644Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Aktif",
+          "new": "Pasif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "id": "ACT1750710200836tdk1ktb7s",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:23:20.836Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Pasif",
+          "new": "Aktif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "id": "ACT1750710158143n2xsks1hf",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:22:38.143Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Aktif",
+          "new": "Pasif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "id": "ACT1750709830972o7rqbncp7",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: vrwafavaf",
+    "targetType": "property",
+    "targetId": "S830927",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:17:10.972Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "vrwafavaf",
+      "price": 241141,
+      "location": "evffvas, svvfqev"
+    }
+  },
+  {
+    "id": "ACT1750709734237f0vs6tylr",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: MEMURDAN TERTEMİZ EV",
+    "targetType": "property",
+    "targetId": "S730875",
+    "ipAddress": "::ffff:192.168.241.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "timestamp": "2025-06-23T20:15:34.237Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "MEMURDAN TERTEMİZ EV",
+      "price": 1000000,
+      "location": "Bayrampaşa, İstanbul"
+    }
+  },
+  {
+    "userId": "U004",
+    "userName": "gorkemtester",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "gorkemtester sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U004",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T20:12:10.434Z"
+    },
+    "timestamp": "2025-06-23T20:12:14.073Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "ipAddress": "::ffff:192.168.241.223",
+    "id": "ACT1750709534073a38hgi99d"
+  },
+  {
+    "id": "ACT1750709533717b2dfnaaa5",
+    "userId": "U004",
+    "userName": "gorkemtester",
+    "userEmail": "gorkimetal@gorki.com",
+    "action": "user_login",
+    "description": "gorkemtester sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::ffff:192.168.241.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0",
+    "timestamp": "2025-06-23T20:12:13.717Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T20:12:13.717Z"
+    }
+  },
+  {
+    "id": "ACT1750709488321o3c81x7az",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_create",
+    "description": "Yeni kullanıcı eklendi: gorkemtester",
+    "targetType": "user",
+    "targetId": "U004",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T20:11:28.321Z",
+    "status": "success",
+    "details": {
+      "userEmail": "gorkimetal@gorki.com",
+      "userName": "gorkemtester",
+      "userRole": "admin",
+      "createdBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T20:01:14.443Z"
+    },
+    "timestamp": "2025-06-23T20:01:16.598Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT175070887660015lxk78xc"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:28:01.625Z"
+    },
+    "timestamp": "2025-06-23T19:28:01.662Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750706881663hq38qspey"
+  },
+  {
+    "id": "ACT1750706881620z4zgh9ah6",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T19:28:01.620Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:28:01.620Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T19:27:57.264Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT1750706877264mqnq41vtg"
+  },
+  {
+    "id": "ACT1750706877226al243xuqo",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T19:27:57.226Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T19:27:50.505Z"
+    },
+    "timestamp": "2025-06-23T19:27:50.571Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "ipAddress": "::1",
+    "id": "ACT175070687057292cdowrz3"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:23:52.112Z"
+    },
+    "timestamp": "2025-06-23T19:23:52.205Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750706632206uuba4gknm"
+  },
+  {
+    "id": "ACT1750706632107rru6wfykm",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T19:23:52.107Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:23:52.107Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T19:23:48.269Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750706628270mvwq0ihkl"
+  },
+  {
+    "id": "ACT1750706628164fawdn12hl",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T19:23:48.164Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T19:23:43.738Z"
+    },
+    "timestamp": "2025-06-23T19:23:44.026Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750706624026d8kdxm8ex"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:20:56.407Z"
+    },
+    "timestamp": "2025-06-23T19:20:56.602Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750706456602hxsnhv7rj"
+  },
+  {
+    "id": "ACT17507064564013xquyqva9",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T19:20:56.401Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T19:20:56.401Z"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T19:20:47.561Z"
+    },
+    "timestamp": "2025-06-23T19:20:48.598Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT17507064485999kj59ro3h"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:53:44.119Z"
+    },
+    "timestamp": "2025-06-23T18:53:44.331Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750704824332eeca83ov1"
+  },
+  {
+    "id": "ACT17507048240976khhy136y",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:53:44.097Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:53:44.096Z"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:53:38.049Z"
+    },
+    "timestamp": "2025-06-23T18:53:38.883Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750704818884cgkl1sk1u"
+  },
+  {
+    "id": "ACT17507048180366nc5jxll3",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:53:38.036Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:53:38.036Z"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:24:25.740Z"
+    },
+    "timestamp": "2025-06-23T18:24:26.156Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750703066156rtfddi4fc"
+  },
+  {
+    "id": "ACT175070306573385sr5e77p",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:24:25.733Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:24:25.733Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T18:24:23.395Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750703063396718avquvi"
+  },
+  {
+    "id": "ACT1750703062816g58d9x2mj",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:24:22.816Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T18:24:15.731Z"
+    },
+    "timestamp": "2025-06-23T18:24:15.948Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750703055948w1sgibgbd"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:24:10.066Z"
+    },
+    "timestamp": "2025-06-23T18:24:10.262Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750703050263si1ioy19o"
+  },
+  {
+    "id": "ACT1750703050056t0a1tu7kr",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:24:10.056Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:24:10.056Z"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T18:23:53.811Z"
+    },
+    "timestamp": "2025-06-23T18:23:54.035Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT17507030340360eufq5bsg"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:22:32.631Z"
+    },
+    "timestamp": "2025-06-23T18:22:33.072Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750702953073ywo95gdjr"
+  },
+  {
+    "id": "ACT17507029526225j1vs5qjz",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:22:32.622Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:22:32.622Z"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T18:22:07.562Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750702927562y3y8kz9cg"
+  },
+  {
+    "id": "ACT1750702927327szz0zgyqy",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:22:07.327Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T18:22:04.360Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750702924361hukkp1weh"
+  },
+  {
+    "id": "ACT1750702924113c3i2a86i8",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:22:04.113Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz email veya şifre"
+    },
+    "timestamp": "2025-06-23T18:22:01.419Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750702921421260zuqn3k"
+  },
+  {
+    "id": "ACT17507029210855hy5eak2d",
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:22:01.085Z",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Geçersiz kimlik bilgileri"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T18:21:26.561Z"
+    },
+    "timestamp": "2025-06-23T18:21:27.628Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT17507028876290soek8w08"
+  },
+  {
+    "id": "ACT1750702880754jsk5zy534",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "password_change",
+    "description": "Kullanıcı şifresini değiştirdi",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:21:20.754Z",
+    "status": "success"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:13:39.242Z"
+    },
+    "timestamp": "2025-06-23T18:13:40.302Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "id": "ACT1750702420304kzju1uyjg"
+  },
+  {
+    "id": "ACT1750702419235xmv9pxlxi",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:13:39.235Z",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:13:39.235Z"
+    }
+  },
+  {
+    "id": "ACT17507022927236t1xku3yj",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "password_change",
+    "description": "Şifre değiştirme işlemi başarısız - Mevcut şifre yanlış",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:11:32.723Z",
+    "status": "failed",
+    "details": {
+      "reason": "Mevcut şifre yanlış"
+    }
+  },
+  {
+    "id": "ACT1750702248781u824tlv9o",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "password_change",
+    "description": "Şifre değiştirme işlemi başarısız - Mevcut şifre yanlış",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:10:48.781Z",
+    "status": "failed",
+    "details": {
+      "reason": "Mevcut şifre yanlış"
+    }
+  },
+  {
+    "id": "ACT17507022433970owm00b6m",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "password_change",
+    "description": "Şifre değiştirme işlemi başarısız - Mevcut şifre yanlış",
+    "targetType": "user",
+    "targetId": "U001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:10:43.397Z",
+    "status": "failed",
+    "details": {
+      "reason": "Mevcut şifre yanlış"
+    }
+  },
+  {
+    "id": "ACT175070170624389u6bduhc",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: ce21ec12x",
+    "targetType": "property",
+    "targetId": "S706206",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:01:46.243Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "ce21ec12x",
+      "price": 42121,
+      "location": "ec12ce12c, c12e12"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T18:00:57.621Z"
+    },
+    "timestamp": "2025-06-23T18:00:58.695Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750701658696re2to960t"
+  },
+  {
+    "id": "ACT17507016022040rqms8fbb",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: ve1cd1wc1",
+    "targetType": "property",
+    "targetId": "R598194",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T18:00:02.204Z",
+    "status": "success",
+    "details": {
+      "propertyType": "rent",
+      "title": "ve1cd1wc1",
+      "price": 2414124,
+      "location": "ec12ce12, c21ec12"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T17:49:08.487Z"
+    },
+    "timestamp": "2025-06-23T17:49:08.956Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "id": "ACT1750700948957jgaimqwry"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-23T17:47:46.529Z"
+    },
+    "timestamp": "2025-06-23T17:47:47.890Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "id": "ACT1750700867892acemlyxxw"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T17:44:37.582Z"
+    },
+    "timestamp": "2025-06-23T17:44:38.431Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "id": "ACT17507006784327vwd0bae1"
+  },
+  {
+    "id": "ACT1750700653230lugbnaka2",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_update",
+    "description": "Emlak güncellendi: AAAAAAAAAAAAAAA",
+    "targetType": "property",
+    "targetId": "S003",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-23T17:44:13.230Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "changes": {
+        "title": {
+          "old": "360° Sanal Turlu Lüks Villa",
+          "new": "AAAAAAAAAAAAAAA"
+        }
+      },
+      "oldTitle": "360° Sanal Turlu Lüks Villa",
+      "newTitle": "AAAAAAAAAAAAAAA",
+      "oldPrice": 15500000,
+      "newPrice": 15500000
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-23T17:41:19.047Z"
+    },
+    "timestamp": "2025-06-23T17:41:20.600Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "id": "ACT1750700480601v7zj6f59n"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T08:20:52.444Z"
+    },
+    "timestamp": "2025-06-18T08:20:54.668Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T07:32:01.349Z"
+    },
+    "timestamp": "2025-06-18T07:32:02.146Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T07:27:34.842Z"
+    },
+    "timestamp": "2025-06-18T07:27:35.027Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T07:27:31.532Z"
+    },
+    "timestamp": "2025-06-18T07:27:31.721Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T07:27:24.184Z"
+    },
+    "timestamp": "2025-06-18T07:27:24.443Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T07:26:56.441Z"
+    },
+    "timestamp": "2025-06-18T07:27:01.345Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "admin@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: admin@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "admin@iremworld.com",
+      "failureReason": "Kullanıcı bulunamadı"
+    },
+    "timestamp": "2025-06-18T07:20:06.171Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T06:53:24.267Z"
+    },
+    "timestamp": "2025-06-18T06:53:27.875Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "ACT17502268818676jhk9uvfc",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: Baslık",
+    "targetType": "property",
+    "targetId": "S879998",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-18T06:08:01.867Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "Baslık",
+      "price": 12131,
+      "location": "ataşehir, istanbul"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T06:00:13.914Z"
+    },
+    "timestamp": "2025-06-18T06:00:14.254Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T05:59:53.827Z"
+    },
+    "timestamp": "2025-06-18T05:59:57.072Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T05:09:02.619Z"
+    },
+    "timestamp": "2025-06-18T05:09:02.772Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U003",
+    "userName": "Ali veli konya",
+    "userEmail": "aliveli@alivel.com",
+    "action": "user_logout",
+    "description": "Ali veli konya sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U003",
+    "status": "success",
+    "details": {
+      "userRole": "agent",
+      "logoutTime": "2025-06-18T05:08:52.453Z"
+    },
+    "timestamp": "2025-06-18T05:08:52.660Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "ACT1750223257870hirvsmp9i",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_create",
+    "description": "Yeni emlak eklendi: 2213 test",
+    "targetType": "property",
+    "targetId": "S257238",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-18T05:07:37.870Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "title": "2213 test",
+      "price": 125000,
+      "location": "bayrampaşa, istanbul"
+    }
+  },
+  {
+    "userId": "U003",
+    "userName": "Ali veli konya",
+    "userEmail": "aliveli@alivel.com",
+    "action": "user_login",
+    "description": "Ali veli konya sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U003",
+    "status": "success",
+    "details": {
+      "userRole": "agent",
+      "loginTime": "2025-06-18T05:06:12.903Z"
+    },
+    "timestamp": "2025-06-18T05:06:13.053Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T05:06:07.254Z"
+    },
+    "timestamp": "2025-06-18T05:06:07.404Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "ACT1750223156823axpyl6fum",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_create",
+    "description": "Yeni kullanıcı eklendi: Ali veli konya",
+    "targetType": "user",
+    "targetId": "U003",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-18T05:05:56.823Z",
+    "status": "success",
+    "details": {
+      "userEmail": "aliveli@alivel.com",
+      "userName": "Ali veli konya",
+      "userRole": "agent",
+      "createdBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-18T05:05:12.329Z"
+    },
+    "timestamp": "2025-06-18T05:05:12.495Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-18T05:01:57.804Z"
+    },
+    "timestamp": "2025-06-18T05:01:58.058Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "ACT1750193260886rnpyvzv3l",
+    "userId": "system",
+    "userName": "System User",
+    "userEmail": "system@iremworld.com",
+    "action": "settings_update",
+    "description": "Site ayarları güncellendi",
+    "targetType": "system",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:47:40.887Z",
+    "status": "success",
+    "details": {
+      "updatedFields": [
+        "siteName",
+        "siteDescription",
+        "headerLogo",
+        "footerLogo",
+        "primaryColor",
+        "secondaryColor",
+        "footerText",
+        "socialLinks"
+      ]
+    }
+  },
+  {
+    "id": "ACT17501932602650jb970c1c",
+    "userId": "system",
+    "userName": "System User",
+    "userEmail": "system@iremworld.com",
+    "action": "settings_update",
+    "description": "Site ayarları güncellendi",
+    "targetType": "system",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:47:40.265Z",
+    "status": "success",
+    "details": {
+      "updatedFields": [
+        "siteName",
+        "siteDescription",
+        "headerLogo",
+        "footerLogo",
+        "primaryColor",
+        "secondaryColor",
+        "footerText",
+        "socialLinks"
+      ]
+    }
+  },
+  {
+    "id": "ACT1750193258384mp5ep8w7r",
+    "userId": "system",
+    "userName": "System User",
+    "userEmail": "system@iremworld.com",
+    "action": "settings_update",
+    "description": "Site ayarları güncellendi",
+    "targetType": "system",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:47:38.384Z",
+    "status": "success",
+    "details": {
+      "updatedFields": [
+        "siteName",
+        "siteDescription",
+        "headerLogo",
+        "footerLogo",
+        "primaryColor",
+        "secondaryColor",
+        "footerText",
+        "socialLinks"
+      ]
+    }
+  },
+  {
+    "id": "ACT1750193252888hy19x91bp",
+    "userId": "system",
+    "userName": "System User",
+    "userEmail": "system@iremworld.com",
+    "action": "settings_update",
+    "description": "Site ayarları güncellendi",
+    "targetType": "system",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:47:32.888Z",
+    "status": "success",
+    "details": {
+      "updatedFields": [
+        "siteName",
+        "siteDescription",
+        "headerLogo",
+        "footerLogo",
+        "primaryColor",
+        "secondaryColor",
+        "footerText",
+        "socialLinks"
+      ]
+    }
+  },
+  {
+    "id": "ACT1750192745688x16b4t7j2",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "property_update",
+    "description": "Emlak güncellendi: Deniz Manzaralı Penthouse",
+    "targetType": "property",
+    "targetId": "S001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:39:05.689Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "changes": {
+        "price": {
+          "old": 8499999,
+          "new": 8499989
+        }
+      },
+      "oldTitle": "Deniz Manzaralı Penthouse",
+      "newTitle": "Deniz Manzaralı Penthouse",
+      "oldPrice": 8499999,
+      "newPrice": 8499989
+    }
+  },
+  {
+    "id": "ACT1750192075505z1cl6elxo",
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_update",
+    "description": "Kullanıcı güncellendi: deneme",
+    "targetType": "user",
+    "targetId": "U002",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:27:55.505Z",
+    "status": "success",
+    "details": {
+      "changes": {
+        "status": {
+          "old": "Aktif",
+          "new": "Pasif"
+        }
+      },
+      "updatedBy": "IREMWORLD"
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-17T20:26:32.521Z"
+    },
+    "timestamp": "2025-06-17T20:26:32.722Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Yanlış şifre"
+    },
+    "timestamp": "2025-06-17T20:26:29.297Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "unknown",
+    "userName": "Unknown User",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "Başarısız giriş denemesi: info@iremworld.com",
+    "targetType": "user",
+    "status": "failed",
+    "details": {
+      "attemptedEmail": "info@iremworld.com",
+      "failureReason": "Yanlış şifre"
+    },
+    "timestamp": "2025-06-17T20:26:22.526Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-17T20:23:09.866Z"
+    },
+    "timestamp": "2025-06-17T20:23:10.421Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "ACT1750191329143gj8w7mnfy",
+    "userId": "system",
+    "userName": "System User",
+    "userEmail": "system@iremworld.com",
+    "action": "property_update",
+    "description": "Emlak güncellendi: Deniz Manzaralı Penthouse",
+    "targetType": "property",
+    "targetId": "S001",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "timestamp": "2025-06-17T20:15:29.143Z",
+    "status": "success",
+    "details": {
+      "propertyType": "sale",
+      "oldTitle": "Deniz Manzaralı Penthouse",
+      "newTitle": "Deniz Manzaralı Penthouse",
+      "oldPrice": 8500000,
+      "newPrice": 8499999
+    }
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_login",
+    "description": "IREMWORLD sisteme giriş yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "loginTime": "2025-06-17T20:14:49.467Z"
+    },
+    "timestamp": "2025-06-17T20:14:49.698Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  },
+  {
+    "userId": "U001",
+    "userName": "IREMWORLD",
+    "userEmail": "info@iremworld.com",
+    "action": "user_logout",
+    "description": "IREMWORLD sistemden çıkış yaptı",
+    "targetType": "user",
+    "targetId": "U001",
+    "status": "success",
+    "details": {
+      "userRole": "admin",
+      "logoutTime": "2025-06-17T20:14:40.012Z"
+    },
+    "timestamp": "2025-06-17T20:14:40.474Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+  }
+]

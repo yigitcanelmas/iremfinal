@@ -1,0 +1,297 @@
+[
+  {
+    "id": "R001",
+    "type": "rent",
+    "title": "Modern Loft Daire",
+    "description": "Şehir merkezinde modern tasarımlı loft daire. Geniş terasıyla dikkat çeken bu özel daire, konforlu yaşam alanları sunuyor.",
+    "price": 15000,
+    "location": {
+      "city": "İstanbul",
+      "district": "Beşiktaş"
+    },
+    "specs": {
+      "size": 120,
+      "rooms": "2+1",
+      "bathrooms": 2,
+      "age": 3,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "Balkon",
+      "Geniş Teras",
+      "Modern Mutfak",
+      "Parke Zemin"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": false,
+      "hasGym": false,
+      "floor": 5,
+      "totalFloors": 8
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop"
+    ],
+    "createdAt": "2024-01-15T10:00:00Z",
+    "agent": {
+      "name": "Mehmet Özkan",
+      "phone": "+90 534 345 6789",
+      "email": "mehmet.ozkan@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,man",
+      "company": "IremWorld Rental"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-besiktas-modern-loft-daire-1234567894"
+  },
+  {
+    "id": "R002",
+    "type": "rent",
+    "title": "Lüks Deniz Manzaralı Villa",
+    "description": "Boğaz manzaralı özel villa. Bahçesi ve havuzuyla lüks yaşam standardı sunan eşsiz bir konut.",
+    "price": 45000,
+    "location": {
+      "city": "İstanbul",
+      "district": "Sarıyer"
+    },
+    "specs": {
+      "size": 350,
+      "rooms": "4+2",
+      "bathrooms": 3,
+      "age": 5,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "Deniz Manzarası",
+      "Özel Bahçe",
+      "Şömine",
+      "Geniş Salon"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": false,
+      "floor": 1,
+      "totalFloors": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop"
+    ],
+    "virtualTour": "https://example.com/virtual-tour/R002",
+    "createdAt": "2024-01-10T14:30:00Z",
+    "agent": {
+      "name": "Ayşe Demir",
+      "phone": "+90 533 234 5678",
+      "email": "ayse.demir@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,woman",
+      "company": "IremWorld Luxury"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-sariyer-luks-deniz-manzarali-villa-1234567895"
+  },
+  {
+    "id": "R003",
+    "type": "rent",
+    "title": "Merkezi Konumda Ofis",
+    "description": "İş merkezinde modern ofis alanı. Toplantı odaları ve açık çalışma alanlarıyla ideal iş yeri.",
+    "price": 25000,
+    "location": {
+      "city": "İstanbul",
+      "district": "Şişli"
+    },
+    "specs": {
+      "size": 200,
+      "rooms": "Açık Alan",
+      "bathrooms": 2,
+      "age": 2,
+      "furnishing": "Unfurnished"
+    },
+    "features": [
+      "Toplantı Odası",
+      "Açık Ofis",
+      "Yüksek Tavan",
+      "Geniş Pencereler"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": false,
+      "hasGym": false,
+      "floor": 12,
+      "totalFloors": 20
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop"
+    ],
+    "createdAt": "2024-01-08T16:45:00Z",
+    "agent": {
+      "name": "Ali Şahin",
+      "phone": "+90 536 567 8901",
+      "email": "ali.sahin@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,man",
+      "company": "IremWorld Commercial"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-ofis-kiralik-sisli-merkezi-konumda-ofis-1234567896"
+  },
+  {
+    "id": "R004",
+    "type": "rent",
+    "title": "Aile Dostu Dubleks",
+    "description": "Geniş aile için ideal dubleks daire. Bahçe kullanımı ve çocuk oyun alanı mevcut.",
+    "price": 18000,
+    "location": {
+      "city": "İzmir",
+      "district": "Bornova"
+    },
+    "specs": {
+      "size": 160,
+      "rooms": "3+1",
+      "bathrooms": 2,
+      "age": 8,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "Dubleks",
+      "Bahçe Kullanımı",
+      "Çocuk Odası",
+      "Geniş Mutfak"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": true,
+      "hasPool": false,
+      "hasGym": false,
+      "floor": 1,
+      "totalFloors": 2
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448075-bb485b067938?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&h=600&fit=crop"
+    ],
+    "createdAt": "2024-01-05T13:20:00Z",
+    "agent": {
+      "name": "Zeynep Arslan",
+      "phone": "+90 537 678 9012",
+      "email": "zeynep.arslan@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,woman",
+      "company": "IremWorld Family"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-bornova-aile-dostu-dubleks-1234567897"
+  },
+  {
+    "id": "R005",
+    "type": "rent",
+    "title": "Öğrenci Dostu Studio",
+    "description": "Üniversiteye yakın konumda studio daire. Genç profesyoneller ve öğrenciler için ideal.",
+    "price": 8000,
+    "location": {
+      "city": "Ankara",
+      "district": "Çankaya"
+    },
+    "specs": {
+      "size": 45,
+      "rooms": "1+0",
+      "bathrooms": 1,
+      "age": 12,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "Kompakt Tasarım",
+      "Çalışma Alanı",
+      "Ankastre Mutfak",
+      "Balkon"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": false,
+      "floor": 3,
+      "totalFloors": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&h=600&fit=crop"
+    ],
+    "createdAt": "2024-01-03T10:15:00Z",
+    "agent": {
+      "name": "Emre Yıldız",
+      "phone": "+90 538 789 0123",
+      "email": "emre.yildiz@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,man",
+      "company": "IremWorld Student"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-cankaya-ogrenci-dostu-studio-1234567898"
+  },
+  {
+    "id": "R006",
+    "type": "rent",
+    "title": "Lüks Rezidans Dairesi",
+    "description": "Premium rezidansta lüks daire. Spa, fitness ve concierge hizmetleriyle tam donanımlı yaşam.",
+    "price": 35000,
+    "location": {
+      "city": "Antalya",
+      "district": "Konyaaltı"
+    },
+    "specs": {
+      "size": 180,
+      "rooms": "3+1",
+      "bathrooms": 2,
+      "age": 1,
+      "furnishing": "Furnished"
+    },
+    "features": [
+      "Deniz Manzarası",
+      "Lüks Mobilya",
+      "Akıllı Ev Sistemi",
+      "Geniş Balkon"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true,
+      "floor": 10,
+      "totalFloors": 15
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop"
+    ],
+    "virtualTour": "https://example.com/virtual-tour/R006",
+    "createdAt": "2024-01-01T08:00:00Z",
+    "agent": {
+      "name": "Selin Çelik",
+      "phone": "+90 539 890 1234",
+      "email": "selin.celik@iremworld.com",
+      "photo": "https://source.unsplash.com/100x100/?portrait,woman",
+      "company": "IremWorld Luxury"
+    },
+    "sahibindenLink": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-konyaalti-luks-rezidans-dairesi-1234567899"
+  }
+]

@@ -1,0 +1,342 @@
+ [
+  {
+    "id": 1,
+    "type": "sale",
+    "title": "Deniz Manzaralı Penthouse",
+    "description": "Boğaz manzaralı lüks penthouse. Geniş terasları ve özel asansörüyle benzersiz bir yaşam alanı.",
+    "price": 8500000,
+    "currency": "TL",
+    "location": {
+      "city": "İstanbul",
+      "district": "Bebek",
+      "coordinates": {
+        "lat": 41.0833,
+        "lng": 29.0431
+      }
+    },
+    "specs": {
+      "rooms": "4+2",
+      "bathrooms": 3,
+      "size": 280,
+      "age": 2,
+      "furnishing": "Furnished",
+      "heatingType": "Yerden Isıtma"
+    },
+    "features": ["Boğaz Manzarası", "Özel Asansör", "Geniş Teras", "Şömine", "Jakuzi"],
+    "images": [
+      "/images/sale/s1.jpg",
+      "/images/sale/s1_1.jpg",
+      "/images/sale/s1_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true
+    },
+    "agent": {
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet.yilmaz@iremworld.com",
+      "phone": "+90 532 123 4567",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 2,
+    "type": "sale",
+    "title": "Modern Villa Kompleksi",
+    "description": "Kapalı site içinde modern villa. Özel bahçe, havuz ve güvenlikli yaşam alanı.",
+    "price": 12000000,
+    "currency": "TL",
+    "location": {
+      "city": "İstanbul",
+      "district": "Zekeriyaköy",
+      "coordinates": {
+        "lat": 41.1833,
+        "lng": 28.9833
+      }
+    },
+    "specs": {
+      "rooms": "5+2",
+      "bathrooms": 4,
+      "size": 450,
+      "age": 1,
+      "furnishing": "Unfurnished",
+      "heatingType": "Yerden Isıtma"
+    },
+    "features": ["Özel Bahçe", "Yüzme Havuzu", "Kapalı Garaj", "Geniş Salon", "Ana Yatak Odası Suit"],
+    "images": [
+      "/images/sale/s2.jpg",
+      "/images/sale/s2_1.jpg",
+      "/images/sale/s2_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": false
+    },
+    "agent": {
+      "name": "Mehmet Demir",
+      "email": "mehmet.demir@iremworld.com",
+      "phone": "+90 533 234 5678",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 3,
+    "type": "sale",
+    "title": "Merkezi Konumda İş Yeri",
+    "description": "Şehir merkezinde yatırım amaçlı iş yeri. Yüksek kira getirisi potansiyeli olan lokasyon.",
+    "price": 3500000,
+    "currency": "TL",
+    "location": {
+      "city": "İstanbul",
+      "district": "Taksim",
+      "coordinates": {
+        "lat": 41.0369,
+        "lng": 28.9850
+      }
+    },
+    "specs": {
+      "rooms": "Açık Alan",
+      "bathrooms": 2,
+      "size": 150,
+      "age": 15,
+      "furnishing": "Unfurnished",
+      "heatingType": "Merkezi"
+    },
+    "features": ["Vitrinli", "Geniş Depo", "Yüksek Tavan", "Merkezi Konum"],
+    "images": [
+      "/images/sale/s3.jpg",
+      "/images/sale/s3_1.jpg",
+      "/images/sale/s3_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": false
+    },
+    "agent": {
+      "name": "Ayşe Kaya",
+      "email": "ayse.kaya@iremworld.com",
+      "phone": "+90 534 345 6789",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 4,
+    "type": "sale",
+    "title": "Aile Dostu Daire",
+    "description": "Geniş aileler için ideal daire. Okullara ve parklara yakın konumda güvenli yaşam alanı.",
+    "price": 2800000,
+    "currency": "TL",
+    "location": {
+      "city": "İzmir",
+      "district": "Alsancak",
+      "coordinates": {
+        "lat": 38.4361,
+        "lng": 27.1518
+      }
+    },
+    "specs": {
+      "rooms": "3+1",
+      "bathrooms": 2,
+      "size": 140,
+      "age": 10,
+      "furnishing": "Furnished",
+      "heatingType": "Merkezi"
+    },
+    "features": ["Balkon", "Ankastre Mutfak", "Parke Zemin", "Geniş Salon"],
+    "images": [
+      "/images/sale/s4.jpg",
+      "/images/sale/s4_1.jpg",
+      "/images/sale/s4_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": false,
+      "hasGym": false
+    },
+    "agent": {
+      "name": "Can Yıldız",
+      "email": "can.yildiz@iremworld.com",
+      "phone": "+90 535 456 7890",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-12"
+  },
+  {
+    "id": 5,
+    "type": "sale",
+    "title": "Yatırım Fırsatı Daire",
+    "description": "Yüksek kira getirisi potansiyeli olan daire. Üniversite ve iş merkezlerine yakın konum.",
+    "price": 1850000,
+    "currency": "TL",
+    "location": {
+      "city": "Ankara",
+      "district": "Kızılay",
+      "coordinates": {
+        "lat": 39.9208,
+        "lng": 32.8541
+      }
+    },
+    "specs": {
+      "rooms": "2+1",
+      "bathrooms": 1,
+      "size": 85,
+      "age": 20,
+      "furnishing": "Unfurnished",
+      "heatingType": "Soba"
+    },
+    "features": ["Merkezi Konum", "Yatırım Fırsatı", "Ulaşım Kolaylığı", "Ticari Alan Yakını"],
+    "images": [
+      "/images/sale/s5.jpg",
+      "/images/sale/s5_1.jpg",
+      "/images/sale/s5_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": false
+    },
+    "agent": {
+      "name": "Zeynep Öz",
+      "email": "zeynep.oz@iremworld.com",
+      "phone": "+90 536 567 8901",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-10"
+  },
+  {
+    "id": 6,
+    "type": "sale",
+    "title": "Sahil Kenarı Lüks Daire",
+    "description": "Deniz kenarında lüks rezidans dairesi. Plaj erişimi ve sosyal tesisleriyle premium yaşam.",
+    "price": 6500000,
+    "currency": "TL",
+    "location": {
+      "city": "Antalya",
+      "district": "Lara",
+      "coordinates": {
+        "lat": 36.8333,
+        "lng": 30.7833
+      }
+    },
+    "specs": {
+      "rooms": "3+1",
+      "bathrooms": 2,
+      "size": 165,
+      "age": 3,
+      "furnishing": "Furnished",
+      "heatingType": "Klima"
+    },
+    "features": ["Deniz Manzarası", "Plaj Erişimi", "Lüks Mobilya", "Geniş Balkon", "Akıllı Ev"],
+    "images": [
+      "/images/sale/s6.jpg",
+      "/images/sale/s6_1.jpg",
+      "/images/sale/s6_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true
+    },
+    "agent": {
+      "name": "Emre Kara",
+      "email": "emre.kara@iremworld.com",
+      "phone": "+90 537 678 9012",
+      "company": "İrem World Real Estate"
+    },
+    "createdAt": "2024-01-08"
+  },
+  {
+    "id": 7,
+    "type": "sale",
+    "title": "Tarihi Bölgede Restorasyon Projesi",
+    "description": "Tarihi dokuda restore edilmiş özel konut. Benzersiz mimari ve modern konfor bir arada.",
+    "price": 4200000,
+    "currency": "TL",
+    "location": {
+      "city": "İstanbul",
+      "district": "Sultanahmet",
+      "coordinates": {
+        "lat": 41.0058,
+        "lng": 28.9769
+      }
+    },
+    "specs": {
+      "rooms": "4+1",
+      "bathrooms": 3,
+      "size": 220,
+      "age": 150,
+      "furnishing": "Furnished",
+      "heatingType": "Yerden Isıtma"
+    },
+    "features": ["Tarihi Doku", "Restorasyon", "Yüksek Tavan", "Özgün Detaylar", "Avlu"],
+    "images": [
+      "/images/sale/s7.jpg",
+      "/images/sale/s7_1.jpg",
+      "/images/sale/s7_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": false,
+      "hasSecurity": false,
+      "hasParking": false,
+      "hasPool": false,
+      "hasGym": false
+    },
+    "createdAt": "2024-01-05"
+  },
+  {
+    "id": 8,
+    "type": "sale",
+    "title": "Modern Rezidans Dairesi",
+    "description": "Yeni nesil rezidansta akıllı ev teknolojileri ile donatılmış modern daire.",
+    "price": 3800000,
+    "currency": "TL",
+    "location": {
+      "city": "İzmir",
+      "district": "Mavişehir",
+      "coordinates": {
+        "lat": 38.5167,
+        "lng": 27.0167
+      }
+    },
+    "specs": {
+      "rooms": "2+1",
+      "bathrooms": 2,
+      "size": 110,
+      "age": 1,
+      "furnishing": "Unfurnished",
+      "heatingType": "Yerden Isıtma"
+    },
+    "features": ["Akıllı Ev", "Geniş Balkon", "Modern Mutfak", "Yüksek Kalite"],
+    "images": [
+      "/images/sale/s8.jpg",
+      "/images/sale/s8_1.jpg",
+      "/images/sale/s8_2.jpg"
+    ],
+    "buildingFeatures": {
+      "hasElevator": true,
+      "hasSecurity": true,
+      "hasParking": true,
+      "hasPool": true,
+      "hasGym": true
+    },
+    "createdAt": "2024-01-03"
+  }
+]

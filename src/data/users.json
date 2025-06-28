@@ -1,0 +1,63 @@
+[
+  {
+    "email": "info@iremworld.com",
+    "name": "IREMWORLD",
+    "role": "admin",
+    "id": "U001",
+    "avatar": "https://images.unsplash.com/photo-696117426?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-17T19:35:14.820Z",
+    "isActive": true,
+    "lastLogin": "2025-06-23T19:28:01.620Z",
+    "updatedAt": "2025-06-23T18:21:20.752Z"
+  },
+  {
+    "email": "deneme@deneme.deneme",
+    "name": "deneme",
+    "role": "agent",
+    "id": "U002",
+    "avatar": "https://images.unsplash.com/photo-284256113?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-17T19:45:19.422Z",
+    "isActive": false
+  },
+  {
+    "email": "aliveli@alivel.com",
+    "name": "Ali veli konya",
+    "role": "agent",
+    "id": "U003",
+    "avatar": "https://images.unsplash.com/photo-301170681?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-18T05:05:56.813Z",
+    "isActive": true
+  },
+  {
+    "email": "gorkimetal@gorki.com",
+    "name": "gorkemtester",
+    "role": "admin",
+    "id": "U004",
+    "avatar": "https://images.unsplash.com/photo-390492028?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-23T20:11:28.320Z",
+    "isActive": true,
+    "lastLogin": "2025-06-23T20:12:13.716Z"
+  },
+  {
+    "email": "gorkem@gorkem.com",
+    "name": "gorkemtest3",
+    "password": "$2b$10$L47pp8TiGrxkqzf7xx0KqeDLdS.oTWbIimylVLPL84fguogG0NXKS",
+    "role": "admin",
+    "id": "U005",
+    "avatar": "https://images.unsplash.com/photo-107857441?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-23T20:25:35.689Z",
+    "isActive": true,
+    "lastLogin": "2025-06-25T07:20:19.417Z"
+  },
+  {
+    "email": "cem@green.net.tr",
+    "name": "CEM AYDIN",
+    "password": "$2b$10$/D.ijpBDwauTfrDZG8PUqeWwOEqzrGC4OaVFMdBm5BVd2FNYcGTWq",
+    "role": "admin",
+    "id": "U006",
+    "avatar": "https://images.unsplash.com/photo-673495234?w=150&h=150&fit=crop&crop=face",
+    "createdAt": "2025-06-25T07:20:42.296Z",
+    "isActive": true,
+    "lastLogin": "2025-06-25T07:20:57.715Z"
+  }
+]
