@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb+srv://iworld:3PKMpj3aUWTHqx8b@cluster0.otx2ycs.mongodb.net/iworld';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://iworld:3PKMpj3aUWTHqx8b@cluster0.otx2ycs.mongodb.net/iworld';
 
 if (!MONGODB_URI) {
   throw new Error('MongoDB URI bulunamadı');
