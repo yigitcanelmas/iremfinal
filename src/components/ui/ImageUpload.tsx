@@ -24,25 +24,37 @@ export default function ImageUpload({
   const uploadFiles = async (files: File[]) => {
     setIsUploading(true);
     try {
-      // Upload multiple files simultaneously
-      const uploadPromises = files.map(async (file) => {
-        const formData = new FormData();
-        formData.append('file', file);
+      // Upload files one by one to avoid overwhelming the server
+      const uploadedUrls: string[] = [];
+      
+      for (const file of files) {
+        try {
+          const formData = new FormData();
+          formData.append('file', file);
+          formData.append('folder', 'irem-properties');
 
-        const response = await fetch('/api/upload', {
-          method: 'POST',
-          body: formData,
-        });
+          const response = await fetch('/api/upload', {
+            method: 'POST',
+            body: formData,
+          });
 
-        if (!response.ok) {
-          throw new Error(`Upload failed for ${file.name}`);
+          if (!response.ok) {
+            const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
+            throw new Error(`${file.name}: ${errorData.error || `HTTP ${response.status}`}`);
+          }
+
+          const result = await response.json();
+          if (result.url) {
+            uploadedUrls.push(result.url);
+          } else {
+            throw new Error(`${file.name}: No URL returned from server`);
+          }
+        } catch (fileError) {
+          console.error(`Error uploading ${file.name}:`, fileError);
+          alert(`Dosya yükleme hatası (${file.name}): ${fileError instanceof Error ? fileError.message : 'Bilinmeyen hata'}`);
         }
+      }
 
-        const result = await response.json();
-        return result.url;
-      });
-
-      const uploadedUrls = await Promise.all(uploadPromises);
       return uploadedUrls;
     } catch (error) {
       console.error('Upload error:', error);
@@ -53,12 +65,33 @@ export default function ImageUpload({
   };
 
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
+    if (acceptedFiles.length === 0) {
+      return;
+    }
+
+    // Check file sizes
+    const oversizedFiles = acceptedFiles.filter(file => file.size > 10 * 1024 * 1024);
+    if (oversizedFiles.length > 0) {
+      alert(`Şu dosyalar çok büyük (max 10MB): ${oversizedFiles.map(f => f.name).join(', ')}`);
+      return;
+    }
+
+    // Check file types
+    const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'];
+    const invalidFiles = acceptedFiles.filter(file => !validTypes.includes(file.type));
+    if (invalidFiles.length > 0) {
+      alert(`Geçersiz dosya türü: ${invalidFiles.map(f => f.name).join(', ')}`);
+      return;
+    }
+
     try {
       const uploadedUrls = await uploadFiles(acceptedFiles);
-      onImagesChange([...images, ...uploadedUrls].slice(0, maxImages));
+      if (uploadedUrls.length > 0) {
+        onImagesChange([...images, ...uploadedUrls].slice(0, maxImages));
+      }
     } catch (error) {
       console.error('Dosya yükleme hatası:', error);
-      // Hata durumunda kullanıcıya bilgi verilebilir
+      alert(`Dosya yükleme hatası: ${error instanceof Error ? error.message : 'Bilinmeyen hata'}`);
     }
   }, [images, maxImages, onImagesChange]);
 
