@@ -98,23 +98,23 @@ export default function UsersManagementPage() {
       // Clean phone number - ensure it's a string or undefined
       const cleanPhone = newUser.phone && newUser.phone.trim() ? newUser.phone.trim() : undefined;
 
-      const newUserWithId: User = {
-        ...newUser,
+      const userData = {
+        name: newUser.name,
+        email: newUser.email,
         phone: cleanPhone,
-        id: `U${String(users.length + 1).padStart(3, '0')}`,
-        avatar: avatarUrl,
-        createdAt: new Date().toISOString(),
-        isActive: true
+        password: newUser.password,
+        role: newUser.role,
+        avatar: avatarUrl
       };
 
-      console.log('Creating user with data:', newUserWithId);
+      console.log('Creating user with data:', userData);
 
       const response = await fetch('/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(newUserWithId),
+        body: JSON.stringify(userData),
       });
 
       if (response.ok) {
