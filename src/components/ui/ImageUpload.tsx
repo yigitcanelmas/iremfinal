@@ -17,7 +17,7 @@ export default function ImageUpload({
   maxImages = 10,
   title = "Fotoğraflar",
   description = "Emlak fotoğraflarını sürükleyip bırakın veya seçin"
-}: ImageUploadProps) {
+}: ImageUploadProps): JSX.Element {
   const [isDragging, setIsDragging] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
 
@@ -29,6 +29,7 @@ export default function ImageUpload({
       
       for (const file of files) {
         try {
+          console.log(`Uploading file: ${file.name}`);
           const formData = new FormData();
           formData.append('file', file);
           formData.append('folder', 'irem-properties');
@@ -38,26 +39,30 @@ export default function ImageUpload({
             body: formData,
           });
 
+          console.log(`Upload response status: ${response.status}`);
+
           if (!response.ok) {
             const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
+            console.error(`Upload failed for ${file.name}:`, errorData);
             throw new Error(`${file.name}: ${errorData.error || `HTTP ${response.status}`}`);
           }
 
           const result = await response.json();
+          console.log(`Upload result for ${file.name}:`, result);
+          
           if (result.url) {
             uploadedUrls.push(result.url);
+            console.log(`Successfully uploaded ${file.name}, URL: ${result.url}`);
           } else {
             throw new Error(`${file.name}: No URL returned from server`);
           }
         } catch (fileError) {
           console.error(`Error uploading ${file.name}:`, fileError);
-          // Sadece gerçek hata durumunda alert göster
-          if (fileError instanceof Error && !fileError.message.includes('Unknown error')) {
-            alert(`Dosya yükleme hatası (${file.name}): ${fileError.message}`);
-          }
+          alert(`Dosya yükleme hatası (${file.name}): ${fileError instanceof Error ? fileError.message : 'Bilinmeyen hata'}`);
         }
       }
 
+      console.log(`Total uploaded URLs: ${uploadedUrls.length}`, uploadedUrls);
       return uploadedUrls;
     } catch (error) {
       console.error('Upload error:', error);
