@@ -117,7 +117,7 @@ const propertySchema = new mongoose.Schema({
     },
     deedStatus: {
       type: String,
-      enum: ['Kat Mülkiyeti', 'Kat İrtifakı', 'Arsa Tapulu', 'Hisseli Tapu']
+      enum: ['Kat Mülkiyeti', 'Kat İrtifakı', 'Arsa Tapulu', 'Hisseli Tapu', 'Müstakil Tapulu']
     },
     fromWho: {
       type: String,
@@ -135,6 +135,23 @@ const propertySchema = new mongoose.Schema({
     isNewBuilding: Boolean,
     isSuitableForOffice: Boolean,
     hasBusinessLicense: Boolean
+  },
+  // Arsa özel alanları
+  landDetails: {
+    zoningStatus: {
+      type: String,
+      enum: ['Tarla', 'İmarlı', 'Ticari İmarlı', 'Konut İmarlı', 'Sanayi İmarlı', 'Turizm İmarlı', 'Belirtilmemiş']
+    },
+    pricePerSquareMeter: Number, // m² Fiyatı
+    blockNumber: String, // Ada No
+    parcelNumber: String, // Parsel No
+    sheetNumber: String, // Pafta No
+    floorAreaRatio: String, // Kaks (Emsal)
+    buildingHeight: String, // Gabari
+    creditEligibility: {
+      type: String,
+      enum: ['Uygun', 'Uygun Değil', 'Bilinmiyor']
+    }
   },
   images: [String],
   virtualTour: String,
@@ -217,6 +234,7 @@ propertySchema.pre('save', function(next) {
   next();
 });
 
-const Property = mongoose.models.Property || mongoose.model('Property', propertySchema);
+// Type assertion to fix TypeScript errors with Mongoose
+const Property = (mongoose.models.Property || mongoose.model('Property', propertySchema)) as any;
 
 export default Property;

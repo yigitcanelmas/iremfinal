@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import HeroSection from "@/components/sections/hero-section";
 import PerformanceComparison from "@/components/sections/performance-comparison";
 import LayeredTextHero from "@/components/sections/layered-text-hero";
@@ -6,6 +7,18 @@ import FeaturedProperties from "@/components/sections/featured-properties";
 import PartnersSlider from "@/components/sections/partners-slider";
 import BannerGallery from "@/components/sections/banner-gallery";
 import AdvancedSearchBar from "@/components/ui/AdvancedSearchBar";
+
+export const metadata: Metadata = {
+  title: "İrem World | Türkiye'nin En Prestijli Emlak Pazarlama Platformu",
+  description: "IREMWORLD REAL ESTATE MARKETING - Kiralık ve satılık arsa, ev, ofis, daire, villa, iş yeri arayanlar için Türkiye'nin en güvenilir emlak platformu. INTERNATIONAL REAL ESTATE MARKETING ile hayalinizdeki mülkü bulun.",
+  keywords: "emlak, gayrimenkul, kiralık daire, satılık ev, arsa, villa, ofis, iş yeri, IREMWORLD, emlak pazarlama, gayrimenkul yatırımı, İstanbul emlak, Ankara emlak, İzmir emlak",
+  openGraph: {
+    title: "İrem World | Türkiye'nin En Prestijli Emlak Pazarlama Platformu",
+    description: "IREMWORLD REAL ESTATE MARKETING - Kiralık ve satılık arsa, ev, ofis, daire, villa, iş yeri arayanlar için Türkiye'nin en güvenilir emlak platformu.",
+    url: "https://iremworld.com",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (

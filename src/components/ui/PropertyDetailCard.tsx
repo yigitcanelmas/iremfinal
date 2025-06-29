@@ -127,22 +127,51 @@ export default function PropertyDetailCard({ property }: PropertyDetailCardProps
 
           {/* Specifications */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            <div className="text-center p-3 bg-gray-50 rounded-lg">
-              <div className="text-lg font-bold text-primary">{property.specs.rooms}</div>
-              <div className="text-sm text-gray-600">Oda</div>
-            </div>
-            <div className="text-center p-3 bg-gray-50 rounded-lg">
-              <div className="text-lg font-bold text-primary">{property.specs.bathrooms}</div>
-              <div className="text-sm text-gray-600">Banyo</div>
-            </div>
-            <div className="text-center p-3 bg-gray-50 rounded-lg">
-              <div className="text-lg font-bold text-primary">{property.specs.netSize}</div>
-              <div className="text-sm text-gray-600">m²</div>
-            </div>
-            <div className="text-center p-3 bg-gray-50 rounded-lg">
-              <div className="text-lg font-bold text-primary">{property.specs.age}</div>
-              <div className="text-sm text-gray-600">Yaş</div>
-            </div>
+            {property.category.main === "Arsa" ? (
+              <>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-lg font-bold text-primary">{property.specs.netSize}</div>
+                  <div className="text-sm text-gray-600">m²</div>
+                </div>
+                {property.landDetails?.pricePerSquareMeter && (
+                  <div className="text-center p-3 bg-gray-50 rounded-lg">
+                    <div className="text-lg font-bold text-primary">{property.landDetails.pricePerSquareMeter.toLocaleString('tr-TR')}</div>
+                    <div className="text-sm text-gray-600">₺/m²</div>
+                  </div>
+                )}
+                {property.landDetails?.zoningStatus && (
+                  <div className="text-center p-3 bg-gray-50 rounded-lg">
+                    <div className="text-lg font-bold text-primary">{property.landDetails.zoningStatus}</div>
+                    <div className="text-sm text-gray-600">İmar Durumu</div>
+                  </div>
+                )}
+                {property.propertyDetails?.deedStatus && (
+                  <div className="text-center p-3 bg-gray-50 rounded-lg">
+                    <div className="text-lg font-bold text-primary">{property.propertyDetails.deedStatus}</div>
+                    <div className="text-sm text-gray-600">Tapu Durumu</div>
+                  </div>
+                )}
+              </>
+            ) : (
+              <>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-lg font-bold text-primary">{property.specs.rooms}</div>
+                  <div className="text-sm text-gray-600">Oda</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-lg font-bold text-primary">{property.specs.bathrooms}</div>
+                  <div className="text-sm text-gray-600">Banyo</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-lg font-bold text-primary">{property.specs.netSize}</div>
+                  <div className="text-sm text-gray-600">m²</div>
+                </div>
+                <div className="text-center p-3 bg-gray-50 rounded-lg">
+                  <div className="text-lg font-bold text-primary">{property.specs.age}</div>
+                  <div className="text-sm text-gray-600">Yaş</div>
+                </div>
+              </>
+            )}
           </div>
 
           {/* Description Preview */}
@@ -153,128 +182,162 @@ export default function PropertyDetailCard({ property }: PropertyDetailCardProps
             </p>
           </div>
 
-          {/* Interior Features Preview */}
-          <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-3">Özellikler</h4>
-            <div className="flex flex-wrap gap-2">
-              {property.specs?.heating && (
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                  {property.specs.heating}
-                </span>
-              )}
-              {property.specs?.furnishing && property.specs.furnishing !== 'Unfurnished' && (
-                <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
-                  {property.specs.furnishing === 'Furnished' ? 'Eşyalı' : 
-                   property.specs.furnishing === 'Partially Furnished' ? 'Yarı Eşyalı' : property.specs.furnishing}
-                </span>
-              )}
-              {property.interiorFeatures?.hasBuiltInKitchen && (
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                  Ankastre Mutfak
-                </span>
-              )}
-              {property.interiorFeatures?.hasBuiltInWardrobe && (
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                  Gömme Dolap
-                </span>
-              )}
-              {property.exteriorFeatures?.hasBalcony && (
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                  Balkon
-                </span>
-              )}
-              {property.exteriorFeatures?.hasTerrace && (
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
-                  Teras
-                </span>
-              )}
-              {property.exteriorFeatures?.hasGarden && (
-                <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
-                  Bahçe
-                </span>
-              )}
-              {property.exteriorFeatures?.hasSeaView && (
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                  Deniz Manzarası
-                </span>
-              )}
-              {property.exteriorFeatures?.hasCityView && (
-                <span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm">
-                  Şehir Manzarası
-                </span>
-              )}
-              {property.exteriorFeatures?.hasNatureView && (
-                <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
-                  Doğa Manzarası
-                </span>
-              )}
-              {property.interiorFeatures?.hasParquet && (
-                <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
-                  Parke
-                </span>
-              )}
-              {property.interiorFeatures?.hasLaminate && (
-                <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
-                  Laminat
-                </span>
-              )}
-            </div>
-          </div>
+          {/* Features Preview - Sadece Arsa kategorisi dışında göster */}
+          {property.category.main !== "Arsa" && (
+            <>
+              {/* Interior Features Preview */}
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-900 mb-3">Özellikler</h4>
+                <div className="flex flex-wrap gap-2">
+                  {property.specs?.heating && (
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                      {property.specs.heating}
+                    </span>
+                  )}
+                  {property.specs?.furnishing && property.specs.furnishing !== 'Unfurnished' && (
+                    <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                      {property.specs.furnishing === 'Furnished' ? 'Eşyalı' : 
+                       property.specs.furnishing === 'Partially Furnished' ? 'Yarı Eşyalı' : property.specs.furnishing}
+                    </span>
+                  )}
+                  {property.interiorFeatures?.hasBuiltInKitchen && (
+                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                      Ankastre Mutfak
+                    </span>
+                  )}
+                  {property.interiorFeatures?.hasBuiltInWardrobe && (
+                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                      Gömme Dolap
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasBalcony && (
+                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                      Balkon
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasTerrace && (
+                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                      Teras
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasGarden && (
+                    <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                      Bahçe
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasSeaView && (
+                    <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                      Deniz Manzarası
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasCityView && (
+                    <span className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm">
+                      Şehir Manzarası
+                    </span>
+                  )}
+                  {property.exteriorFeatures?.hasNatureView && (
+                    <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                      Doğa Manzarası
+                    </span>
+                  )}
+                  {property.interiorFeatures?.hasParquet && (
+                    <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
+                      Parke
+                    </span>
+                  )}
+                  {property.interiorFeatures?.hasLaminate && (
+                    <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
+                      Laminat
+                    </span>
+                  )}
+                </div>
+              </div>
 
-          {/* Quick Building Features */}
-          <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-3">Bina Özellikleri</h4>
-            <div className="grid grid-cols-2 gap-3">
-              {property.buildingFeatures?.hasCarPark && (
-                <div className="flex items-center text-sm text-green-600">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                  Otopark
+              {/* Quick Building Features */}
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-900 mb-3">Bina Özellikleri</h4>
+                <div className="grid grid-cols-2 gap-3">
+                  {property.buildingFeatures?.hasCarPark && (
+                    <div className="flex items-center text-sm text-green-600">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                      Otopark
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasElevator && (
+                    <div className="flex items-center text-sm text-green-600">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                      Asansör
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasSecurity && (
+                    <div className="flex items-center text-sm text-green-600">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                      Güvenlik
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasPool && (
+                    <div className="flex items-center text-sm text-blue-600">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
+                      Havuz
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasGym && (
+                    <div className="flex items-center text-sm text-purple-600">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
+                      Spor Salonu
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasSauna && (
+                    <div className="flex items-center text-sm text-orange-600">
+                      <div className="w-2 h-2 bg-orange-500 rounded-full mr-2"></div>
+                      Sauna
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasPlayground && (
+                    <div className="flex items-center text-sm text-pink-600">
+                      <div className="w-2 h-2 bg-pink-500 rounded-full mr-2"></div>
+                      Oyun Alanı
+                    </div>
+                  )}
+                  {property.buildingFeatures?.hasGenerator && (
+                    <div className="flex items-center text-sm text-yellow-600">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
+                      Jeneratör
+                    </div>
+                  )}
                 </div>
-              )}
-              {property.buildingFeatures?.hasElevator && (
-                <div className="flex items-center text-sm text-green-600">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                  Asansör
-                </div>
-              )}
-              {property.buildingFeatures?.hasSecurity && (
-                <div className="flex items-center text-sm text-green-600">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                  Güvenlik
-                </div>
-              )}
-              {property.buildingFeatures?.hasPool && (
-                <div className="flex items-center text-sm text-blue-600">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                  Havuz
-                </div>
-              )}
-              {property.buildingFeatures?.hasGym && (
-                <div className="flex items-center text-sm text-purple-600">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                  Spor Salonu
-                </div>
-              )}
-              {property.buildingFeatures?.hasSauna && (
-                <div className="flex items-center text-sm text-orange-600">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full mr-2"></div>
-                  Sauna
-                </div>
-              )}
-              {property.buildingFeatures?.hasPlayground && (
-                <div className="flex items-center text-sm text-pink-600">
-                  <div className="w-2 h-2 bg-pink-500 rounded-full mr-2"></div>
-                  Oyun Alanı
-                </div>
-              )}
-              {property.buildingFeatures?.hasGenerator && (
-                <div className="flex items-center text-sm text-yellow-600">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
-                  Jeneratör
-                </div>
-              )}
+              </div>
+            </>
+          )}
+
+          {/* Arsa Özel Özellikleri */}
+          {property.category.main === "Arsa" && (
+            <div className="mb-6">
+              <h4 className="font-semibold text-gray-900 mb-3">Arsa Detayları</h4>
+              <div className="flex flex-wrap gap-2">
+                {property.landDetails?.blockNumber && (
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                    Ada No: {property.landDetails.blockNumber}
+                  </span>
+                )}
+                {property.landDetails?.parcelNumber && (
+                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                    Parsel No: {property.landDetails.parcelNumber}
+                  </span>
+                )}
+                {property.landDetails?.creditEligibility && (
+                  <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+                    Krediye Uygunluk: {property.landDetails.creditEligibility}
+                  </span>
+                )}
+                {property.propertyDetails?.exchangeAvailable && (
+                  <span className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm">
+                    Takas: Evet
+                  </span>
+                )}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Image Viewer */}
           {showImageViewer && (

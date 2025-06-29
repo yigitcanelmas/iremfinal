@@ -91,6 +91,8 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
               {type === 'sale' ? 'Satılık' : 'Kiralık'}
             </Link>
             <span className="mx-2">/</span>
+            <span className="hover:text-primary">{property.category.main} - {property.category.sub}</span>
+            <span className="mx-2">/</span>
             <span className="text-gray-900">{property.title}</span>
           </div>
         </div>
@@ -188,119 +190,159 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
                     <div className="text-sm text-gray-500">Net m²</div>
                     <div className="font-medium">{property.specs.netSize} m²</div>
                   </div>
-                  {property.specs.grossSize && (
+                  {property.category.main !== "Arsa" && property.specs.grossSize && (
                     <div className="space-y-1">
                       <div className="text-sm text-gray-500">Brüt m²</div>
                       <div className="font-medium">{property.specs.grossSize} m²</div>
                     </div>
                   )}
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Oda Sayısı</div>
-                    <div className="font-medium">{property.specs.rooms}</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Bina Yaşı</div>
-                    <div className="font-medium">{property.specs.age}</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Banyo Sayısı</div>
-                    <div className="font-medium">{property.specs.bathrooms}</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Eşya Durumu</div>
-                    <div className="font-medium">{property.specs.furnishing}</div>
-                  </div>
-                  {property.specs.floor !== undefined && (
-                    <div className="space-y-1">
-                      <div className="text-sm text-gray-500">Bulunduğu Kat</div>
-                      <div className="font-medium">{property.specs.floor}. Kat</div>
-                    </div>
+                  {property.category.main !== "Arsa" && (
+                    <>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Oda Sayısı</div>
+                        <div className="font-medium">{property.specs.rooms}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Bina Yaşı</div>
+                        <div className="font-medium">{property.specs.age}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Banyo Sayısı</div>
+                        <div className="font-medium">{property.specs.bathrooms}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Eşya Durumu</div>
+                        <div className="font-medium">{property.specs.furnishing}</div>
+                      </div>
+                      {property.specs.floor !== undefined && (
+                        <div className="space-y-1">
+                          <div className="text-sm text-gray-500">Bulunduğu Kat</div>
+                          <div className="font-medium">{property.specs.floor}. Kat</div>
+                        </div>
+                      )}
+                      {property.specs.totalFloors !== undefined && (
+                        <div className="space-y-1">
+                          <div className="text-sm text-gray-500">Toplam Kat</div>
+                          <div className="font-medium">{property.specs.totalFloors}</div>
+                        </div>
+                      )}
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Isıtma</div>
+                        <div className="font-medium">{property.specs.heating}</div>
+                      </div>
+                      {property.specs.balconyCount !== undefined && (
+                        <div className="space-y-1">
+                          <div className="text-sm text-gray-500">Balkon Sayısı</div>
+                          <div className="font-medium">{property.specs.balconyCount}</div>
+                        </div>
+                      )}
+                    </>
                   )}
-                  {property.specs.totalFloors !== undefined && (
-                    <div className="space-y-1">
-                      <div className="text-sm text-gray-500">Toplam Kat</div>
-                      <div className="font-medium">{property.specs.totalFloors}</div>
-                    </div>
-                  )}
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Isıtma</div>
-                    <div className="font-medium">{property.specs.heating}</div>
-                  </div>
-                  {property.specs.balconyCount !== undefined && (
-                    <div className="space-y-1">
-                      <div className="text-sm text-gray-500">Balkon Sayısı</div>
-                      <div className="font-medium">{property.specs.balconyCount}</div>
-                    </div>
+                  {property.category.main === "Arsa" && (
+                    <>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">m² Fiyatı</div>
+                        <div className="font-medium">{property.landDetails?.pricePerSquareMeter?.toLocaleString('tr-TR')} ₺</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Ada No</div>
+                        <div className="font-medium">{property.landDetails?.blockNumber || '-'}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Parsel No</div>
+                        <div className="font-medium">{property.landDetails?.parcelNumber || '-'}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Pafta No</div>
+                        <div className="font-medium">{property.landDetails?.sheetNumber || '-'}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Kaks (Emsal)</div>
+                        <div className="font-medium">{property.landDetails?.floorAreaRatio || '-'}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Gabari</div>
+                        <div className="font-medium">{property.landDetails?.buildingHeight || '-'}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Krediye Uygunluk</div>
+                        <div className="font-medium">{property.landDetails?.creditEligibility || '-'}</div>
+                      </div>
+                    </>
                   )}
                 </div>
               </div>
 
-              {/* İç Özellikler */}
-              <div className="p-6">
-                <h2 className="text-lg font-semibold text-gray-900 mb-4">İç Özellikler</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Mutfak Tipi</div>
-                    <div className="font-medium">{property.interiorFeatures?.kitchenType || '-'}</div>
-                  </div>
-                  {property.interiorFeatures && Object.entries(property.interiorFeatures)
-                    .filter(([key, value]) => typeof value === 'boolean' && value)
-                    .map(([key]) => (
-                      <div key={key} className="flex items-center text-gray-600">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {key === 'hasBuiltInKitchen' && 'Ankastre Mutfak'}
-                        {key === 'hasBuiltInWardrobe' && 'Gömme Dolap'}
-                        {key === 'hasLaminate' && 'Laminat'}
-                        {key === 'hasParquet' && 'Parke'}
-                        {key === 'hasCeramic' && 'Seramik'}
-                        {key === 'hasMarble' && 'Mermer'}
-                        {key === 'hasWallpaper' && 'Duvar Kağıdı'}
-                        {key === 'hasPaintedWalls' && 'Boyalı'}
-                        {key === 'hasSpotLighting' && 'Spot Aydınlatma'}
-                        {key === 'hasHiltonBathroom' && 'Hilton Banyo'}
-                        {key === 'hasJacuzzi' && 'Jakuzi'}
-                        {key === 'hasShowerCabin' && 'Duşakabin'}
-                        {key === 'hasAmericanDoor' && 'Amerikan Kapı'}
-                        {key === 'hasSteelDoor' && 'Çelik Kapı'}
-                        {key === 'hasIntercom' && 'Görüntülü Diafon'}
-                      </div>
-                    ))
-                  }
-                </div>
-              </div>
-
-              {/* Dış Özellikler */}
-              <div className="p-6">
-                <h2 className="text-lg font-semibold text-gray-900 mb-4">Dış Özellikler</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {property.exteriorFeatures?.facade && (
+              {/* İç Özellikler - Sadece Arsa kategorisi dışında göster */}
+              {property.category.main !== "Arsa" && (
+                <div className="p-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-4">İç Özellikler</h2>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     <div className="space-y-1">
-                      <div className="text-sm text-gray-500">Cephe</div>
-                      <div className="font-medium">{property.exteriorFeatures.facade}</div>
+                      <div className="text-sm text-gray-500">Mutfak Tipi</div>
+                      <div className="font-medium">{property.interiorFeatures?.kitchenType || '-'}</div>
                     </div>
-                  )}
-                  {property.exteriorFeatures && Object.entries(property.exteriorFeatures)
-                    .filter(([key, value]) => typeof value === 'boolean' && value)
-                    .map(([key]) => (
-                      <div key={key} className="flex items-center text-gray-600">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {key === 'hasBalcony' && 'Balkon'}
-                        {key === 'hasTerrace' && 'Teras'}
-                        {key === 'hasGarden' && 'Bahçe'}
-                        {key === 'hasGardenUse' && 'Bahçe Kullanımı'}
-                        {key === 'hasSeaView' && 'Deniz Manzarası'}
-                        {key === 'hasCityView' && 'Şehir Manzarası'}
-                        {key === 'hasNatureView' && 'Doğa Manzarası'}
-                        {key === 'hasPoolView' && 'Havuz Manzarası'}
-                      </div>
-                    ))
-                  }
+                    {property.interiorFeatures && Object.entries(property.interiorFeatures)
+                      .filter(([key, value]) => typeof value === 'boolean' && value)
+                      .map(([key]) => (
+                        <div key={key} className="flex items-center text-gray-600">
+                          <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                          </svg>
+                          {key === 'hasBuiltInKitchen' && 'Ankastre Mutfak'}
+                          {key === 'hasBuiltInWardrobe' && 'Gömme Dolap'}
+                          {key === 'hasLaminate' && 'Laminat'}
+                          {key === 'hasParquet' && 'Parke'}
+                          {key === 'hasCeramic' && 'Seramik'}
+                          {key === 'hasMarble' && 'Mermer'}
+                          {key === 'hasWallpaper' && 'Duvar Kağıdı'}
+                          {key === 'hasPaintedWalls' && 'Boyalı'}
+                          {key === 'hasSpotLighting' && 'Spot Aydınlatma'}
+                          {key === 'hasHiltonBathroom' && 'Hilton Banyo'}
+                          {key === 'hasJacuzzi' && 'Jakuzi'}
+                          {key === 'hasShowerCabin' && 'Duşakabin'}
+                          {key === 'hasAmericanDoor' && 'Amerikan Kapı'}
+                          {key === 'hasSteelDoor' && 'Çelik Kapı'}
+                          {key === 'hasIntercom' && 'Görüntülü Diafon'}
+                        </div>
+                      ))
+                    }
+                  </div>
                 </div>
-              </div>
+              )}
+
+              {/* Dış Özellikler - Sadece Arsa kategorisi dışında göster */}
+              {property.category.main !== "Arsa" && (
+                <div className="p-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-4">Dış Özellikler</h2>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    {property.exteriorFeatures?.facade && (
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Cephe</div>
+                        <div className="font-medium">{property.exteriorFeatures.facade}</div>
+                      </div>
+                    )}
+                    {property.exteriorFeatures && Object.entries(property.exteriorFeatures)
+                      .filter(([key, value]) => typeof value === 'boolean' && value)
+                      .map(([key]) => (
+                        <div key={key} className="flex items-center text-gray-600">
+                          <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                          </svg>
+                          {key === 'hasBalcony' && 'Balkon'}
+                          {key === 'hasTerrace' && 'Teras'}
+                          {key === 'hasGarden' && 'Bahçe'}
+                          {key === 'hasGardenUse' && 'Bahçe Kullanımı'}
+                          {key === 'hasSeaView' && 'Deniz Manzarası'}
+                          {key === 'hasCityView' && 'Şehir Manzarası'}
+                          {key === 'hasNatureView' && 'Doğa Manzarası'}
+                          {key === 'hasPoolView' && 'Havuz Manzarası'}
+                        </div>
+                      ))
+                    }
+                  </div>
+                </div>
+              )}
 
               {/* Açıklama */}
               <div className="p-6">
@@ -311,85 +353,110 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
                 />
               </div>
 
-              {/* Bina Özellikleri */}
-              <div className="p-6">
-                <h2 className="text-lg font-semibold text-gray-900 mb-4">Bina Özellikleri</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {Object.entries(property.buildingFeatures)
-                    .filter(([key, value]) => typeof value === 'boolean' && value)
-                    .map(([key]) => (
-                      <div key={key} className="flex items-center text-gray-600">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {key === 'hasCarPark' && 'Otopark'}
-                        {key === 'hasClosedCarPark' && 'Kapalı Otopark'}
-                        {key === 'hasOpenCarPark' && 'Açık Otopark'}
-                        {key === 'hasElevator' && 'Asansör'}
-                        {key === 'hasSecurity' && 'Güvenlik'}
-                        {key === 'has24HourSecurity' && '24 Saat Güvenlik'}
-                        {key === 'hasCameraSystem' && 'Kamera Sistemi'}
-                        {key === 'hasConcierge' && 'Kapıcı'}
-                        {key === 'hasPool' && 'Havuz'}
-                        {key === 'hasGym' && 'Spor Salonu'}
-                        {key === 'hasSauna' && 'Sauna'}
-                        {key === 'hasTurkishBath' && 'Türk Hamamı'}
-                        {key === 'hasPlayground' && 'Çocuk Oyun Alanı'}
-                        {key === 'hasBasketballCourt' && 'Basketbol Sahası'}
-                        {key === 'hasTennisCourt' && 'Tenis Kortu'}
-                        {key === 'hasGenerator' && 'Jeneratör'}
-                        {key === 'hasFireEscape' && 'Yangın Merdiveni'}
-                        {key === 'hasFireDetector' && 'Yangın Algılama'}
-                        {key === 'hasWaterBooster' && 'Su Deposu'}
-                        {key === 'hasSatelliteSystem' && 'Uydu Sistemi'}
-                        {key === 'hasWifi' && 'Kablosuz İnternet'}
-                      </div>
-                    ))
-                  }
+              {/* Bina Özellikleri - Sadece Arsa kategorisi dışında göster */}
+              {property.category.main !== "Arsa" && (
+                <div className="p-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-4">Bina Özellikleri</h2>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    {Object.entries(property.buildingFeatures)
+                      .filter(([key, value]) => typeof value === 'boolean' && value)
+                      .map(([key]) => (
+                        <div key={key} className="flex items-center text-gray-600">
+                          <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                          </svg>
+                          {key === 'hasCarPark' && 'Otopark'}
+                          {key === 'hasClosedCarPark' && 'Kapalı Otopark'}
+                          {key === 'hasOpenCarPark' && 'Açık Otopark'}
+                          {key === 'hasElevator' && 'Asansör'}
+                          {key === 'hasSecurity' && 'Güvenlik'}
+                          {key === 'has24HourSecurity' && '24 Saat Güvenlik'}
+                          {key === 'hasCameraSystem' && 'Kamera Sistemi'}
+                          {key === 'hasConcierge' && 'Kapıcı'}
+                          {key === 'hasPool' && 'Havuz'}
+                          {key === 'hasGym' && 'Spor Salonu'}
+                          {key === 'hasSauna' && 'Sauna'}
+                          {key === 'hasTurkishBath' && 'Türk Hamamı'}
+                          {key === 'hasPlayground' && 'Çocuk Oyun Alanı'}
+                          {key === 'hasBasketballCourt' && 'Basketbol Sahası'}
+                          {key === 'hasTennisCourt' && 'Tenis Kortu'}
+                          {key === 'hasGenerator' && 'Jeneratör'}
+                          {key === 'hasFireEscape' && 'Yangın Merdiveni'}
+                          {key === 'hasFireDetector' && 'Yangın Algılama'}
+                          {key === 'hasWaterBooster' && 'Su Deposu'}
+                          {key === 'hasSatelliteSystem' && 'Uydu Sistemi'}
+                          {key === 'hasWifi' && 'Kablosuz İnternet'}
+                        </div>
+                      ))
+                    }
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Emlak Detayları */}
               <div className="p-6">
                 <h2 className="text-lg font-semibold text-gray-900 mb-4">Emlak Detayları</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Kullanım Durumu</div>
-                    <div className="font-medium">{property.propertyDetails.usageStatus}</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Tapu Durumu</div>
-                    <div className="font-medium">{property.propertyDetails.deedStatus}</div>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="text-sm text-gray-500">Kimden</div>
-                    <div className="font-medium">{property.propertyDetails.fromWho}</div>
-                  </div>
-                  {property.propertyDetails.monthlyFee !== undefined && (
-                    <div className="space-y-1">
-                      <div className="text-sm text-gray-500">Aidat</div>
-                      <div className="font-medium">{property.propertyDetails.monthlyFee} ₺</div>
-                    </div>
-                  )}
-                  {Object.entries(property.propertyDetails)
-                    .filter(([key, value]) => typeof value === 'boolean' && value)
-                    .map(([key]) => (
-                      <div key={key} className="flex items-center text-gray-600">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {key === 'isSettlement' && 'İskanlı'}
-                        {key === 'creditEligible' && 'Krediye Uygun'}
-                        {key === 'exchangeAvailable' && 'Takasa Uygun'}
-                        {key === 'inSite' && 'Site İçerisinde'}
-                        {key === 'hasDebt' && 'Borç Var'}
-                        {key === 'isRentGuaranteed' && 'Kira Garantili'}
-                        {key === 'isNewBuilding' && 'Yeni Bina'}
-                        {key === 'isSuitableForOffice' && 'Ofis Kullanımına Uygun'}
-                        {key === 'hasBusinessLicense' && 'İş Yeri Ruhsatlı'}
+                  {property.category.main === "Arsa" ? (
+                    <>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">İmar Durumu</div>
+                        <div className="font-medium">{property.landDetails?.zoningStatus || '-'}</div>
                       </div>
-                    ))
-                  }
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Tapu Durumu</div>
+                        <div className="font-medium">{property.propertyDetails.deedStatus}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Kimden</div>
+                        <div className="font-medium">{property.propertyDetails.fromWho}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Takas</div>
+                        <div className="font-medium">{property.propertyDetails.exchangeAvailable ? 'Evet' : 'Hayır'}</div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Kullanım Durumu</div>
+                        <div className="font-medium">{property.propertyDetails.usageStatus}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Tapu Durumu</div>
+                        <div className="font-medium">{property.propertyDetails.deedStatus}</div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-sm text-gray-500">Kimden</div>
+                        <div className="font-medium">{property.propertyDetails.fromWho}</div>
+                      </div>
+                      {property.propertyDetails.monthlyFee !== undefined && (
+                        <div className="space-y-1">
+                          <div className="text-sm text-gray-500">Aidat</div>
+                          <div className="font-medium">{property.propertyDetails.monthlyFee} ₺</div>
+                        </div>
+                      )}
+                      {Object.entries(property.propertyDetails)
+                        .filter(([key, value]) => typeof value === 'boolean' && value)
+                        .map(([key]) => (
+                          <div key={key} className="flex items-center text-gray-600">
+                            <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            {key === 'isSettlement' && 'İskanlı'}
+                            {key === 'creditEligible' && 'Krediye Uygun'}
+                            {key === 'exchangeAvailable' && 'Takasa Uygun'}
+                            {key === 'inSite' && 'Site İçerisinde'}
+                            {key === 'hasDebt' && 'Borç Var'}
+                            {key === 'isRentGuaranteed' && 'Kira Garantili'}
+                            {key === 'isNewBuilding' && 'Yeni Bina'}
+                            {key === 'isSuitableForOffice' && 'Ofis Kullanımına Uygun'}
+                            {key === 'hasBusinessLicense' && 'İş Yeri Ruhsatlı'}
+                          </div>
+                        ))
+                      }
+                    </>
+                  )}
                 </div>
               </div>
             </div>

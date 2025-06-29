@@ -45,7 +45,47 @@ export type DeedStatus =
   | "Kat Mülkiyeti"
   | "Kat İrtifakı"
   | "Arsa Tapulu"
-  | "Hisseli Tapu";
+  | "Hisseli Tapu"
+  | "Müstakil Tapulu";
+
+export type ZoningStatus =
+  | "Ada"
+  | "A-Lejantlı"
+  | "Arazi"
+  | "Bağ & Bahçe"
+  | "Depo & Antrepo"
+  | "Eğitim"
+  | "Enerji Depolama"
+  | "Konut"
+  | "Kültürel Tesis"
+  | "Muhtelif"
+  | "Özel Kullanım"
+  | "Sağlık"
+  | "Sanayi"
+  | "Sera"
+  | "Sit Alanı"
+  | "Spor Alanı"
+  | "Tarla"
+  | "Tarla + Bağ"
+  | "Ticari"
+  | "Ticari + Konut"
+  | "Toplu Konut"
+  | "Turizm"
+  | "Turizm + Konut"
+  | "Turizm + Ticari"
+  | "Villa"
+  | "Zeytinlik"
+  | "İmarlı"
+  | "Ticari İmarlı"
+  | "Konut İmarlı"
+  | "Sanayi İmarlı"
+  | "Turizm İmarlı"
+  | "Belirtilmemiş";
+
+export type CreditEligibility =
+  | "Uygun"
+  | "Uygun Değil"
+  | "Bilinmiyor";
 
 export type FromWho =
   | "Sahibinden"
@@ -215,6 +255,18 @@ export interface Property {
     isNewBuilding: boolean;       // Yeni bina
     isSuitableForOffice: boolean; // Ofis kullanımına uygun
     hasBusinessLicense: boolean;  // İş yeri ruhsatlı
+  };
+
+  // Arsa özel alanları
+  landDetails?: {
+    zoningStatus: ZoningStatus;           // İmar Durumu
+    pricePerSquareMeter?: number;         // m² Fiyatı
+    blockNumber?: string;                 // Ada No
+    parcelNumber?: string;                // Parsel No
+    sheetNumber?: string;                 // Pafta No
+    floorAreaRatio?: string;              // Kaks (Emsal)
+    buildingHeight?: string;              // Gabari
+    creditEligibility: CreditEligibility; // Krediye Uygunluk
   };
   
   // Medya

@@ -75,12 +75,17 @@ export async function POST(request: Request) {
     body.slug = generateSlug(body.title, body.type);
     
     // Map admin form data to new schema structure
-    const propertyData = {
+    const propertyData: any = {
       id: body.id,
       type: body.type,
       category: {
         main: body.category?.main || 'Konut',
-        sub: body.category?.sub || body.category || 'Apartman Dairesi'
+        sub: body.category?.sub || (
+          body.category?.main === 'Konut' ? 'Daire' : 
+          body.category?.main === 'Arsa' ? body.category?.sub || 'Arsa' : 
+          body.category?.main === 'İş Yeri' ? 'Ofis' : 
+          'Daire'
+        )
       },
       title: body.title,
       slug: body.slug,
@@ -198,6 +203,20 @@ export async function POST(request: Request) {
       createdAt: new Date(),
       updatedAt: new Date()
     };
+
+    // Add landDetails only for Arsa category
+    if (body.category?.main === "Arsa" && body.landDetails) {
+      propertyData.landDetails = {
+        zoningStatus: body.landDetails.zoningStatus || 'Tarla',
+        pricePerSquareMeter: body.landDetails.pricePerSquareMeter ? Number(body.landDetails.pricePerSquareMeter) : undefined,
+        blockNumber: body.landDetails.blockNumber || '',
+        parcelNumber: body.landDetails.parcelNumber || '',
+        sheetNumber: body.landDetails.sheetNumber || '',
+        floorAreaRatio: body.landDetails.floorAreaRatio || '',
+        buildingHeight: body.landDetails.buildingHeight || '',
+        creditEligibility: body.landDetails.creditEligibility || 'Bilinmiyor'
+      };
+    }
     
     const createdProperty = await Property.create(propertyData);
 
