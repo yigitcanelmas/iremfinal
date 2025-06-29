@@ -55,10 +55,33 @@ export async function POST(request: Request) {
     const cloudinaryUrl = await uploadToCloudinary(buffer, fileName, folder);
     console.log('Upload successful, URL:', cloudinaryUrl);
 
+    // Eğer fallback URL ise, dosyayı local olarak da kaydet
+    if (cloudinaryUrl.startsWith('/uploads/')) {
+      try {
+        const fs = require('fs');
+        const path = require('path');
+        
+        // Public uploads dizinini oluştur
+        const uploadsDir = path.join(process.cwd(), 'public', 'uploads', 'properties');
+        if (!fs.existsSync(uploadsDir)) {
+          fs.mkdirSync(uploadsDir, { recursive: true });
+        }
+        
+        // Dosyayı kaydet
+        const filePath = path.join(uploadsDir, `${fileName}.jpg`);
+        fs.writeFileSync(filePath, buffer);
+        console.log('File saved locally:', filePath);
+      } catch (localError) {
+        console.warn('Local file save failed:', localError);
+        // Local kayıt başarısız olsa da devam et
+      }
+    }
+
     return NextResponse.json({ 
       url: cloudinaryUrl,
       success: true,
-      fileName: fileName
+      fileName: fileName,
+      method: cloudinaryUrl.startsWith('/uploads/') ? 'local' : 'cloudinary'
     });
 
   } catch (error) {

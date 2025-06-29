@@ -1,10 +1,26 @@
 import { v2 as cloudinary } from 'cloudinary';
 
-// Cloudinary konfigürasyonu
-cloudinary.config({
+// Environment variables kontrolü
+const requiredEnvVars = {
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
+};
+
+// Eksik environment variables kontrolü
+const missingVars = Object.entries(requiredEnvVars)
+  .filter(([key, value]) => !value)
+  .map(([key]) => `CLOUDINARY_${key.toUpperCase()}`);
+
+if (missingVars.length > 0) {
+  console.error('Missing Cloudinary environment variables:', missingVars);
+}
+
+// Cloudinary konfigürasyonu
+cloudinary.config({
+  cloud_name: requiredEnvVars.cloud_name,
+  api_key: requiredEnvVars.api_key,
+  api_secret: requiredEnvVars.api_secret,
 });
 
 export default cloudinary;
@@ -16,29 +32,62 @@ export async function uploadToCloudinary(
   folder: string = 'irem-properties'
 ): Promise<string> {
   try {
+    // Environment variables kontrolü
+    if (missingVars.length > 0) {
+      console.warn('Cloudinary environment variables missing, using fallback method');
+      // Fallback: Local storage simulation for development
+      const fallbackUrl = `/uploads/properties/${fileName}.jpg`;
+      console.log('Using fallback URL:', fallbackUrl);
+      return fallbackUrl;
+    }
+
+    console.log('Starting Cloudinary upload:', {
+      fileName,
+      folder,
+      bufferSize: file.length,
+      cloudName: requiredEnvVars.cloud_name
+    });
+
     const result = await new Promise((resolve, reject) => {
-      cloudinary.uploader.upload_stream(
+      const uploadStream = cloudinary.uploader.upload_stream(
         {
           resource_type: 'image',
           folder: folder,
           public_id: fileName,
           transformation: [
-            { width: 1200, height: 800, crop: 'limit' }, // Maksimum boyut sınırı
-            { quality: 'auto' }, // Otomatik kalite optimizasyonu
-            { format: 'auto' } // Otomatik format optimizasyonu (WebP vs JPEG)
-          ]
+            { width: 1200, height: 800, crop: 'limit' },
+            { quality: 'auto' },
+            { format: 'auto' }
+          ],
+          timeout: 60000 // 60 saniye timeout
         },
         (error, result) => {
-          if (error) reject(error);
-          else resolve(result);
+          if (error) {
+            console.error('Cloudinary upload stream error:', error);
+            reject(error);
+          } else {
+            console.log('Cloudinary upload success:', result?.secure_url);
+            resolve(result);
+          }
         }
-      ).end(file);
+      );
+
+      uploadStream.end(file);
     });
 
     return (result as any).secure_url;
   } catch (error) {
-    console.error('Cloudinary upload error:', error);
-    throw new Error('Resim yüklenemedi');
+    console.error('Cloudinary upload error details:', error);
+    
+    // Fallback durumunda local URL döndür
+    const fallbackUrl = `/uploads/properties/${fileName}.jpg`;
+    console.log('Cloudinary failed, using fallback URL:', fallbackUrl);
+    
+    if (error instanceof Error) {
+      console.warn(`Cloudinary yükleme hatası: ${error.message}, fallback kullanılıyor`);
+    }
+    
+    return fallbackUrl;
   }
 }
 
