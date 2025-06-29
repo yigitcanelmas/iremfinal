@@ -10,14 +10,19 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Dynamic routes için server-side rendering'i etkinleştir
+  // Tüm sayfaları dinamik yap - static generation'ı tamamen devre dışı bırak
+  output: 'standalone',
   experimental: {
     serverComponentsExternalPackages: ['mongoose']
   },
-  // API routes ve dynamic pages için static generation'ı devre dışı bırak
+  // Tüm sayfalar için dynamic rendering zorla
   generateBuildId: async () => {
     return 'build-' + Date.now()
-  }
+  },
+  // Static generation'ı tamamen devre dışı bırak
+  generateStaticParams: false,
+  // ISR'ı devre dışı bırak
+  revalidate: false
 }
 
 module.exports = nextConfig
