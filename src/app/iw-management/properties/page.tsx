@@ -5,7 +5,6 @@ export const dynamic = 'force-dynamic';
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { useAuth } from "@/contexts/AuthContext";
 import { Property } from "@/types/property";
 import { generatePropertyUrl } from "@/utils/slug";
@@ -249,11 +248,10 @@ export default function PropertiesManagementPage() {
             <div key={property.id} className="bg-slate-800/40 backdrop-blur-xl border border-slate-700/50 shadow-lg hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-200">
               {/* Property Image */}
               <div className="relative h-48">
-                <Image
+                <img
                   src={property.images[0]}
                   alt={property.title}
-                  fill
-                  className="object-cover"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute top-2 left-2">
                   <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Property } from '@/types/property';
 import { formatPrice, formatLocation } from '@/lib/client-utils';
@@ -50,12 +49,10 @@ export const PropertyCard = ({
         ${view === 'list' ? 'md:w-2/5 w-full' : 'w-full'}
         ${view === 'list' ? 'md:h-full h-64' : 'h-64'}
       `}>
-        <Image
+        <img
           src={`https://source.unsplash.com/800x600/?apartment,house&sig=${property.id}-${currentImageIndex}`}
           alt={property.title}
-          fill
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
-          sizes={view === 'list' ? '(max-width: 768px) 100vw, 40vw' : '100vw'}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         
         {/* Image Navigation */}
