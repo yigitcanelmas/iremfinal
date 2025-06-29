@@ -1,27 +1,32 @@
 import { v2 as cloudinary } from 'cloudinary';
 
-// Environment variables kontrolü
-const requiredEnvVars = {
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-};
-
-// Eksik environment variables kontrolü
-const missingVars = Object.entries(requiredEnvVars)
-  .filter(([key, value]) => !value)
-  .map(([key]) => `CLOUDINARY_${key.toUpperCase()}`);
-
-if (missingVars.length > 0) {
-  console.error('Missing Cloudinary environment variables:', missingVars);
+// Environment variables kontrolü - runtime'da da çalışacak şekilde
+function getCloudinaryConfig() {
+  return {
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME || process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY || process.env.NEXT_PUBLIC_CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  };
 }
 
-// Cloudinary konfigürasyonu
-cloudinary.config({
-  cloud_name: requiredEnvVars.cloud_name,
-  api_key: requiredEnvVars.api_key,
-  api_secret: requiredEnvVars.api_secret,
-});
+// Cloudinary konfigürasyonu - her kullanımda yeniden kontrol et
+function configureCloudinary() {
+  const config = getCloudinaryConfig();
+  
+  console.log('Cloudinary config check:', {
+    cloud_name: config.cloud_name ? 'SET' : 'MISSING',
+    api_key: config.api_key ? 'SET' : 'MISSING',
+    api_secret: config.api_secret ? 'SET' : 'MISSING'
+  });
+
+  cloudinary.config({
+    cloud_name: config.cloud_name,
+    api_key: config.api_key,
+    api_secret: config.api_secret,
+  });
+
+  return config;
+}
 
 export default cloudinary;
 
@@ -32,9 +37,17 @@ export async function uploadToCloudinary(
   folder: string = 'irem-properties'
 ): Promise<string> {
   try {
+    // Cloudinary'yi yeniden konfigüre et
+    const config = configureCloudinary();
+    
     // Environment variables kontrolü
-    if (missingVars.length > 0) {
+    if (!config.cloud_name || !config.api_key || !config.api_secret) {
       console.warn('Cloudinary environment variables missing, using fallback method');
+      console.warn('Missing vars:', {
+        cloud_name: !config.cloud_name,
+        api_key: !config.api_key,
+        api_secret: !config.api_secret
+      });
       // Fallback: Local storage simulation for development
       const fallbackUrl = `/uploads/properties/${fileName}.jpg`;
       console.log('Using fallback URL:', fallbackUrl);
@@ -45,7 +58,7 @@ export async function uploadToCloudinary(
       fileName,
       folder,
       bufferSize: file.length,
-      cloudName: requiredEnvVars.cloud_name
+      cloudName: config.cloud_name
     });
 
     const result = await new Promise((resolve, reject) => {
