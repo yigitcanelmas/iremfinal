@@ -361,6 +361,7 @@ export default function AddPropertyPage() {
       };
 
       console.log("Gönderilecek veri:", newProperty);
+      console.log("Resim URL'leri:", newProperty.images);
 
       const response = await fetch('/api/properties', {
         method: 'POST',

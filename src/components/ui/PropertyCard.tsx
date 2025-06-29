@@ -50,7 +50,7 @@ export const PropertyCard = ({
         ${view === 'list' ? 'md:h-full h-64' : 'h-64'}
       `}>
         <img
-          src={`https://source.unsplash.com/800x600/?apartment,house&sig=${property.id}-${currentImageIndex}`}
+          src={property.images && property.images.length > 0 ? property.images[currentImageIndex] : `https://source.unsplash.com/800x600/?apartment,house&sig=${property.id}`}
           alt={property.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />

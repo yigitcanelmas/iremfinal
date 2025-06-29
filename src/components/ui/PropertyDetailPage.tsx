@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { Property } from "@/types/property";
 import { formatLocation } from "@/lib/client-utils";
@@ -16,7 +15,6 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [showGallery, setShowGallery] = useState(false);
 
   useEffect(() => {
     const fetchProperty = async () => {
@@ -105,12 +103,10 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
             {/* Galeri */}
             <div className="bg-white rounded-lg shadow-sm p-4">
               <div className="relative aspect-[4/3] mb-4">
-                <Image
+                <img
                   src={property.images[currentImageIndex]}
                   alt={property.title}
-                  fill
-                  className="object-contain rounded-lg"
-                  priority
+                  className="w-full h-full object-contain rounded-lg"
                 />
                 {property.images.length > 1 && (
                   <div className="absolute inset-0 flex items-center justify-between px-4">
@@ -145,11 +141,10 @@ export default function PropertyDetailPage({ slug, type }: PropertyDetailPagePro
                       index === currentImageIndex ? 'ring-2 ring-primary' : 'opacity-70 hover:opacity-100'
                     }`}
                   >
-                    <Image
+                    <img
                       src={image}
                       alt={`${property.title} ${index + 1}`}
-                      fill
-                      className="object-cover"
+                      className="w-full h-full object-cover"
                     />
                   </button>
                 ))}
