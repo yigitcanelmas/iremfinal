@@ -51,7 +51,10 @@ export default function ImageUpload({
           }
         } catch (fileError) {
           console.error(`Error uploading ${file.name}:`, fileError);
-          alert(`Dosya yükleme hatası (${file.name}): ${fileError instanceof Error ? fileError.message : 'Bilinmeyen hata'}`);
+          // Sadece gerçek hata durumunda alert göster
+          if (fileError instanceof Error && !fileError.message.includes('Unknown error')) {
+            alert(`Dosya yükleme hatası (${file.name}): ${fileError.message}`);
+          }
         }
       }
 
@@ -91,7 +94,10 @@ export default function ImageUpload({
       }
     } catch (error) {
       console.error('Dosya yükleme hatası:', error);
-      alert(`Dosya yükleme hatası: ${error instanceof Error ? error.message : 'Bilinmeyen hata'}`);
+      // Sadece gerçek hata durumunda alert göster
+      if (error instanceof Error && !error.message.includes('Unknown error')) {
+        alert(`Dosya yükleme hatası: ${error.message}`);
+      }
     }
   }, [images, maxImages, onImagesChange]);
 
