@@ -64,7 +64,7 @@ export default function AdminSidebar() {
       <div className="flex h-16 items-center justify-between px-4 border-b border-zinc-800">
         <Link href="/iw-management" className="flex items-center space-x-3">
           <div 
-            className="w-20 h-20 -my-6 bg-[url('https://dev01.iremworld.com/wp-content/uploads/2025/03/irem-e1741856017529.png')] bg-contain bg-no-repeat bg-center"
+            className="w-20 h-20 -my-6 bg-[url('/images/kurumsal-logo/iremworld-logo.png')] bg-contain bg-no-repeat bg-center"
             role="img"
             aria-label="İrem World Logo"
           />

@@ -20,21 +20,21 @@ export async function POST(request: Request) {
     }
 
     // Dosya tipini kontrol et
-    const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'];
+    const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp', 'video/mp4', 'video/quicktime', 'video/x-msvideo', 'video/x-ms-wmv'];
     if (!validTypes.includes(file.type)) {
       console.error('Invalid file type:', file.type);
       return NextResponse.json(
-        { error: `Geçersiz dosya tipi: ${file.type}. Sadece JPEG, PNG, GIF ve WEBP formatları desteklenir.` },
+        { error: `Geçersiz dosya tipi: ${file.type}. Sadece JPEG, PNG, GIF, WEBP ve video (MP4, MOV, AVI, WMV) formatları desteklenir.` },
         { status: 400 }
       );
     }
 
-    // Dosya boyutunu kontrol et (10MB)
-    const maxSize = 10 * 1024 * 1024;
+    // Dosya boyutunu kontrol et (50MB)
+    const maxSize = 50 * 1024 * 1024;
     if (file.size > maxSize) {
       console.error('File too large:', file.size);
       return NextResponse.json(
-        { error: `Dosya boyutu çok büyük: ${Math.round(file.size / 1024 / 1024)}MB. Maksimum 10MB desteklenir.` },
+        { error: `Dosya boyutu çok büyük: ${Math.round(file.size / 1024 / 1024)}MB. Maksimum 50MB desteklenir.` },
         { status: 400 }
       );
     }

@@ -15,8 +15,8 @@ export default function ImageUpload({
   images,
   onImagesChange,
   maxImages = 10,
-  title = "Fotoğraflar",
-  description = "Emlak fotoğraflarını sürükleyip bırakın veya seçin"
+  title = "Fotoğraflar ve Videolar",
+  description = "Emlak fotoğraf ve videolarını sürükleyip bırakın veya seçin"
 }: ImageUploadProps): JSX.Element {
   const [isDragging, setIsDragging] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
@@ -78,14 +78,14 @@ export default function ImageUpload({
     }
 
     // Check file sizes
-    const oversizedFiles = acceptedFiles.filter(file => file.size > 10 * 1024 * 1024);
+    const oversizedFiles = acceptedFiles.filter(file => file.size > 50 * 1024 * 1024);
     if (oversizedFiles.length > 0) {
-      alert(`Şu dosyalar çok büyük (max 10MB): ${oversizedFiles.map(f => f.name).join(', ')}`);
+      alert(`Şu dosyalar çok büyük (max 50MB): ${oversizedFiles.map(f => f.name).join(', ')}`);
       return;
     }
 
     // Check file types
-    const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'];
+    const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp', 'video/mp4', 'video/quicktime', 'video/x-msvideo', 'video/x-ms-wmv'];
     const invalidFiles = acceptedFiles.filter(file => !validTypes.includes(file.type));
     if (invalidFiles.length > 0) {
       alert(`Geçersiz dosya türü: ${invalidFiles.map(f => f.name).join(', ')}`);
@@ -109,7 +109,8 @@ export default function ImageUpload({
   const { getRootProps, getInputProps } = useDropzone({
     onDrop,
     accept: {
-      'image/*': ['.jpeg', '.jpg', '.png', '.webp']
+      'image/*': ['.jpeg', '.jpg', '.png', '.webp'],
+      'video/*': ['.mp4', '.mov', '.avi', '.wmv']
     },
     multiple: true, // Enable multiple file selection
     maxFiles: maxImages - images.length, // Limit based on remaining slots

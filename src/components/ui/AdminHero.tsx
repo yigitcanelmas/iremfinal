@@ -34,7 +34,7 @@ export default function AdminHero({
   return (
     <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden mt-20 lg:mt-24">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[url('https://dev01.iremworld.com/wp-content/uploads/2025/03/irem-e1741856017529.png')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('/images/kurumsal-logo/iremworld-logo.png')] bg-cover bg-center opacity-5"></div>
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-800/80 to-slate-900/90"></div>

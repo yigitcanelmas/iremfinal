@@ -65,7 +65,7 @@ export default function AdminHeader() {
           <div className="flex items-center">
             <Link href="/iw-management" className="flex items-center hover:scale-105 transition-transform group">
               <div 
-                className="w-24 h-24 lg:w-28 lg:h-28 -mt-4 -mb-4 bg-[url('https://dev01.iremworld.com/wp-content/uploads/2025/03/irem-e1741856017529.png')] bg-contain bg-no-repeat bg-center relative z-10"
+                className="w-24 h-24 lg:w-28 lg:h-28 -mt-4 -mb-4 bg-[url('/images/kurumsal-logo/iremworld-logo.png')] bg-contain bg-no-repeat bg-center relative z-10"
                 role="img"
                 aria-label="İrem World Logo"
               />

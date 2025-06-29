@@ -61,19 +61,35 @@ export async function uploadToCloudinary(
       cloudName: config.cloud_name
     });
 
+    // Dosya tipini belirle (video mu resim mi)
+    const isVideo = fileName.includes('video') || 
+                   file.toString('hex', 0, 4) === '66747970' || // MP4 signature
+                   file.toString('hex', 0, 8) === '000000186674797071742020'; // MOV signature
+    
     const result = await new Promise((resolve, reject) => {
+      const uploadOptions: any = {
+        resource_type: isVideo ? 'video' : 'image',
+        folder: folder,
+        public_id: fileName,
+        timeout: 120000 // 2 dakika timeout (video için daha uzun)
+      };
+
+      // Video için farklı transformasyonlar
+      if (isVideo) {
+        uploadOptions.transformation = [
+          { quality: 'auto' },
+          { format: 'auto' }
+        ];
+      } else {
+        uploadOptions.transformation = [
+          { width: 1200, height: 800, crop: 'limit' },
+          { quality: 'auto' },
+          { format: 'auto' }
+        ];
+      }
+
       const uploadStream = cloudinary.uploader.upload_stream(
-        {
-          resource_type: 'image',
-          folder: folder,
-          public_id: fileName,
-          transformation: [
-            { width: 1200, height: 800, crop: 'limit' },
-            { quality: 'auto' },
-            { format: 'auto' }
-          ],
-          timeout: 60000 // 60 saniye timeout
-        },
+        uploadOptions,
         (error, result) => {
           if (error) {
             console.error('Cloudinary upload stream error:', error);

@@ -95,7 +95,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="block">
               <div 
-                className="w-32 h-32 bg-[url('https://dev01.iremworld.com/wp-content/uploads/2025/03/irem-e1741856017529.png')] bg-contain bg-no-repeat bg-center"
+                className="w-32 h-32 bg-[url('/images/kurumsal-logo/iremworld-logo.png')] bg-contain bg-no-repeat bg-center"
                 role="img"
                 aria-label="İrem World Logo"
               />

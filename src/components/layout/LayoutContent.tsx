@@ -13,8 +13,9 @@ export default function LayoutContent({
   const isLoginPage = pathname === "/login";
   const isAdminPage = pathname?.startsWith("/iw-management");
 
+  // Login sayfasında header ve footer'ı tamamen gizle
   if (isLoginPage || isAdminPage) {
-    return <>{children}</>;
+    return <div className="w-full h-full">{children}</div>;
   }
 
   return (

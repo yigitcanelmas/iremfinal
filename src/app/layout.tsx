@@ -118,9 +118,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} ${poppins.variable} min-h-screen flex flex-col`}>
         <AuthProvider>
-          <LayoutContent>
-            {children}
-          </LayoutContent>
+          {children}
         </AuthProvider>
       </body>
     </html>

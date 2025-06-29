@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/sections/hero-section";
+import LayoutContent from "@/components/layout/LayoutContent";
 import PerformanceComparison from "@/components/sections/performance-comparison";
 import LayeredTextHero from "@/components/sections/layered-text-hero";
 import FeaturedCategories from "@/components/sections/featured-categories";
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
+    <LayoutContent>
       {/* Hero Section */}
       <HeroSection />
 
@@ -148,6 +149,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </LayoutContent>
   );
 }
